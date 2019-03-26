@@ -377,44 +377,144 @@ template {
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Regular.woff") format("woff");
+  src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Bold.woff") format("woff");
+  src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Thin.woff") format("woff");
+  src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Light.woff") format("woff");
+  src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-ExtraBold.woff") format("woff");
+  src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Medium.woff") format("woff");
+  src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+}
+
+* {
+  font-size: 16px;
+  font-family: "Acrom", sans-serif;
+}
+
+.section2 {
+  padding: 52px 15px 0;
+}
+
+.section2_p1 {
+  font-size: 0.8438rem;
+  line-height: 1.444;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.section2_img {
+  display: block;
+  margin: 0 auto 25px;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.section2_img-wrapper {
+  position: relative;
+}
+
+.section2_img-wrapper::after {
+  content: "YOU";
+  position: absolute;
+  font-size: 6.1037rem;
+  font-weight: 900;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: -72px;
+  bottom: -163px;
+  z-index: -1;
+  opacity: 0.05;
+  font-style: normal;
+}
+
+.section2-tittle-wrapper {
+  text-transform: uppercase;
+  margin: 0 auto 48px;
+  max-width: 296px;
+  font-weight: 900;
+}
+
+.section2__p2 {
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.096;
+}
+
+.section2-title {
+  text-align-last: left;
+  line-height: 1.252;
+  font-size: 1.2813rem;
+}
+
+.section2-title__span {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.252;
+  font-size: 1.2813rem;
+}
+
+.section2-second-question {
+  font-size: 0.8438rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.444;
+  margin-bottom: 22px;
+}
+
+.section2-questions {
+  list-style: none;
+  padding: 0 40px;
+  line-height: 1.444;
+  font-size: 0.8438rem;
+}
+
+.section2-questions__item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.section2-questions__item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  position: absolute;
+}
+
+.section2-questions__item__text span {
+  font-weight: bold;
 }
 
 * {

@@ -377,73 +377,95 @@ template {
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Regular.woff") format("woff");
+  src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Bold.woff") format("woff");
+  src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Thin.woff") format("woff");
+  src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Light.woff") format("woff");
+  src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-ExtraBold.woff") format("woff");
+  src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Medium.woff") format("woff");
+  src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 .section8 {
-  display: flex;
-  justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 60px;
 }
 
 .text_developer {
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 20px;
   color: black;
   font-size: 10px;
+  padding-left: 120px;
+  font-size: 15px;
 }
 
 .text_content {
-  font-size: 9px;
+  font-size: 14px;
   color: #3f4144;
+  padding-left: 95px;
 }
 
-.headline {
+.headline8 {
   padding-bottom: 30px;
-  font-size: 30px;
+  margin-left: 55px;
+  font-size: 18px;
   color: black;
+  padding: 0;
+  margin-bottom: 15px;
 }
 
 .content_right {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  color: black;
+  margin-left: 65px;
+}
+
+.content_right:before {
+  content: "-";
+  background: black;
+  border: solid 2px;
+}
+
+.image_desctop {
+  margin-left: 60px;
+}
+
+.image_man {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 * {

@@ -127,9 +127,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .section2 {
-padding: 52px 65px 0;
+    padding: 52px 65px 0;
   }
 
   .section2-header__wrapper {
@@ -218,5 +217,31 @@ padding: 52px 65px 0;
   .p3-wrapper {
     display: flex;
     justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section2 {
+    padding: 52px 246px 0;
+  }
+
+  .questions-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section2-questions {
+    display: flex;
+    flex-flow: column wrap;
+    // max-width: 540px;
+    max-height: 280px;
+    justify-content: space-between;
+  }
+  .section2-second-question {
+    min-width: 140px;
+  }
+
+  .p3-wrapper {
+   
   }
 }

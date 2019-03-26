@@ -5,37 +5,113 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    margin-top: 20px;
 
 
     &__article1 {
         display: flex;
-        max-width: 290px;
+        max-width: 310px;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         margin: 0 auto;
-        align-items: center;
+        
 
     }
 
     &__article2 {
         display: flex;
         flex-direction: column;
-        max-width: 410px;
         flex-wrap: wrap;
         align-content: center;
+        margin: 0 auto;
+        max-width: 410px;
     }
+}
+
+.article1_h2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.article1_p {
+    position: relative;
+    max-width: 270px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
+    margin-bottom: 25px;    
+}
+
+
+.article1_p::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    left: -30px;
+    top: 8px;
+
 }
 
 .article2_ul {
     list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
+.article2_li {
+    margin-bottom: 25px;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
 .article2_li::before {
-    display: block;
-    content: '';
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-    margin: 40px auto;
+    content: "";
+    width: 9px;
+    height: 10px;
+    background-color: #ff6b08;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+}
+
+.article_li__h4 {
+    font-size: 23px;
+    line-height: 29px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.article_li__phead {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #16ebfe;
+}
+
+.article_li__ptext {
+    font-size: 14px;
+    line-height: 20px;
+    color: #3f4144;
+    font-family: "Acrom";
+    margin-bottom: 25px;
+    font-weight: 500;
 }

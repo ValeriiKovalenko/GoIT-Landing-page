@@ -1,0 +1,68 @@
+/*SECTION 7*/
+.section7{
+
+}
+/*div*/
+.section7__title_info{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+/*h3*/
+.section7__section_title{
+    display: block;
+    font-family: 'Acrom ExtraBold';
+    font-size: 18px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+/*p & psevdo*/
+.section7__medium_font::before{
+    display: table;
+    content: "";
+    width: 20px;
+    height: 2px;
+    border: solid 2px;
+    border-color: black;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.section7__medium_font{
+    display: flex;
+    font-family: 'Acrom Medium';
+    font-size: 13,5px;
+    width: 370px;
+    margin-bottom: 36px;
+}
+
+.section7__man_image{
+    margin-bottom: 20px;
+}
+
+.section7__bold_font{
+    font-family: 'Acrom Bold';
+    font-size: 13,5px;
+    width: 370px;
+    margin-bottom: 16px;
+}
+
+.section7__black_background{
+    font-family: 'Acrom ExtraBold';
+    font-size: 13,5px;
+    color: white;
+    background-color: black;
+    width: 180px;
+    margin-bottom: 22px;
+    margin-top: 19px;
+}
+
+.section7__content{
+    font-family: 'Acrom Regular';
+    font-size: 13,5px;
+    color: #9e9ea0;
+    width: 328px;
+    margin-bottom: 27px;
+}

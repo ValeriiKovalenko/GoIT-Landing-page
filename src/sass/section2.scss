@@ -74,7 +74,7 @@
 }
 
 .section2-questions {
-list-style: none;
+  list-style: none;
   padding: 0 40px;
   line-height: 1.444;
   font-size: 0.8438rem;
@@ -91,7 +91,7 @@ list-style: none;
   height: 8px;
   background-color: #000;
   position: absolute;
-  left: -20px;
+  left: -16px;
   top: 8px;
 }
 
@@ -99,5 +99,6 @@ list-style: none;
   font-weight: bold;
 }
 
-.section2-questions__item__text {
+.section2_p3 {
+  color: $;
 }

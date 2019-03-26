@@ -511,6 +511,8 @@ template {
   height: 8px;
   background-color: #000;
   position: absolute;
+  left: -16px;
+  top: 8px;
 }
 
 .section2-questions__item__text span {

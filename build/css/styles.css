@@ -417,9 +417,124 @@ template {
   font-style: normal;
 }
 
+.container {
+  max-width: 480px;
+}
+
+.first-section__background {
+  background: radial-gradient(#0b223c, #0d1016);
+  padding: 15px 18px;
+}
+
+.first-section-header__button {
+  background: transparent;
+  border: none;
+  fill: #ffffff;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
 .first-section__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.first-section {
+  font-size: 16px;
+  align-items: center;
+  width: 83.333%;
+  margin: 0 auto;
+}
+
+.first-section__intro {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Acrom";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-bottom: 28px;
+}
+
+.first-section__title {
+  font-size: 30px;
+  line-height: 39px;
+  max-width: 265px;
+  color: #ffffff;
+  font-family: "Acrom";
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.first-section__logo {
+  font-size: 120px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.first-section__textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.first-section__openit {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Acrom";
+  font-weight: 800;
+  text-align: center;
+}
+
+.first-section__conditions {
+  font-size: 14px;
+  line-height: 20px;
+  color: #afb0b3;
+  font-family: "Acrom";
+  text-align: left;
+}
+
+.first-section__button {
+  width: 220px;
+  height: 55px;
+  background-color: #ff6b08;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Acrom";
+  font-weight: 800;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.first-section__button:hover {
+  background-color: #16ebfe;
+}
+
+.first-section__intro::before {
+  content: "\003C";
+  color: #16ebfe;
+  padding-right: 5px;
+}
+
+.first-section__intro::after {
+  content: "/\003E";
+  color: #16ebfe;
+  padding-right: 5px;
 }
 
 * {

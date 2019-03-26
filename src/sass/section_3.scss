@@ -38,6 +38,7 @@
         margin-top: 30px;
         background: linear-gradient(to bottom, #e8e8e8 20%, #fff 15%);
         padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
@@ -54,7 +55,11 @@
     .section_3__article2 {
         min-width: 430px;
         margin: 0;
-      
+        max-height: 201px;
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-image: url(../images/section_3_img_1.png)
     }
 }
 
@@ -199,6 +204,7 @@
     .article_li__phead {
         font-size: 8px;
         line-height: 13px;
+        margin-bottom: 5px;
     }
 }
 
@@ -215,5 +221,6 @@
     .article_li__ptext {
         font-size: 9px;
         line-height: 13px;
+        margin-bottom: 15px;
     }
 }

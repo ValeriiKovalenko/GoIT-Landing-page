@@ -538,6 +538,10 @@ template {
   padding-right: 5px;
 }
 
+.first-section-footer__span {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -630,6 +634,18 @@ template {
     width: 110px;
     height: 30px;
     margin: 0;
+  }
+
+  .first-section-footer__span {
+    display: inline-block;
+    color: #ffff;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    font-family: "Acrom";
+    font-weight: 500;
   }
 }
 

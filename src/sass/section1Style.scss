@@ -203,3 +203,19 @@ text-align: left;
     color: $aqua;
     padding-right: 5px;
 }
+.first-section-footer__span {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .first-section-footer__span {
+        display: inline-block;
+        color: #ffff;
+        transform: rotate(270deg);
+        font-size: 13px;
+letter-spacing: 1px;
+line-height: 10px;
+
+font-family: "Acrom";
+font-weight: 500;
+    }
+}

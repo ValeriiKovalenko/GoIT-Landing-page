@@ -8,6 +8,7 @@
         margin-bottom: 34px;
      }
      &__subtitle{
+         margin: 0 auto;
         font-family: Acrom;
         width: 256px;
         background-color: #000;
@@ -40,6 +41,8 @@ margin-bottom: 15px;
 }
 
 .section4__title{
+    text-align: center;
+    margin: 0 auto;
     font-family: Acrom;
     background-color: #000;
     color: #ffffff;
@@ -52,8 +55,10 @@ margin-bottom: 15px;
 }
 
 .section4__text-one{
+    margin: 0 auto;
+    padding-left: 30px;
     position: relative;
-    width: 264px;
+    width: 280px;
     font-family: Acrom;
     font-size: 14px;
     font-weight: 500;
@@ -67,9 +72,8 @@ margin-bottom: 15px;
     height: 4px;
     background-color: #000000;
     position: absolute;
-    left: 20px;
+    left: 0;
     top: 6px;
-    }
 }
 
 .section4__item{

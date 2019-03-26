@@ -430,6 +430,7 @@ template {
 }
 
 .section4__subtitle {
+  margin: 0 auto;
   font-family: Acrom;
   width: 256px;
   background-color: #000;
@@ -461,6 +462,8 @@ template {
 }
 
 .section4__title {
+  text-align: center;
+  margin: 0 auto;
   font-family: Acrom;
   background-color: #000;
   color: #ffffff;
@@ -473,13 +476,25 @@ template {
 }
 
 .section4__text-one {
+  margin: 0 auto;
+  padding-left: 30px;
   position: relative;
-  width: 264px;
+  width: 280px;
   font-family: Acrom;
   font-size: 14px;
   font-weight: 500;
   line-height: 19.5px;
   margin-bottom: 50px;
+}
+
+.section4__text-one::before {
+  content: "";
+  width: 14px;
+  height: 4px;
+  background-color: #000000;
+  position: absolute;
+  left: 0;
+  top: 6px;
 }
 
 .section4__item {

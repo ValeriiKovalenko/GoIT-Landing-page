@@ -374,3 +374,182 @@ template {
 [hidden] {
   display: none;
 }
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acrom';
+  src: url("Acrom-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.people--text {
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 180px;
+  font-weight: 400;
+}
+
+.people--text::after {
+  content: ' \005D';
+}
+
+.people--text::before {
+  content: '\005B ';
+}
+
+.people--items {
+  font-size: 13.5px;
+  text-transform: uppercase;
+  width: 210px;
+  margin: 0 auto;
+}
+
+.people--items::before {
+  content: '';
+  height: 1px;
+  width: 20px;
+  background-color: black;
+  display: inline-block;
+}
+
+.people--items_your {
+  background-color: black;
+  color: white;
+}
+
+.people-wrapper {
+  min-width: 293px;
+  min-height: 211px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0px auto;
+  position: relative;
+}
+
+.people-wrapper_about {
+  font-size: 5.46px;
+  padding-right: 17px;
+}
+
+.people-cart {
+  display: flex;
+  padding: 15px 13px 18px 18px;
+}
+
+.people-scroll_line {
+  height: 100%;
+  width: 1px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+.people-scroll_block {
+  height: 26px;
+  width: 2px;
+  background-color: black;
+  display: block;
+  position: absolute;
+}
+
+.marks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.marks-number {
+  margin-right: 10px;
+}
+
+.marks-number:last-child {
+  margin-right: 0px;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-button {
+  width: 13px;
+  height: 13px;
+  background-color: black;
+  color: white;
+  margin-right: 1px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 12px;
+  display: inline-block;
+}
+
+.nav-button:last-child {
+  margin-right: 0px;
+}
+
+.marks-namber_unactive {
+  font-size: 5px;
+}
+
+.marks-namber_active {
+  text-decoration: line-through;
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

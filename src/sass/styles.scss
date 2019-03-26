@@ -2,3 +2,39 @@
    Import partials below
 */
 @import './normalize';
+@import './fonts.scss';
+@import'./section5.scss';
+
+
+
+
+
+
+
+
+
+// Default settings
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.container {
+   max-width: 480px ;
+   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+   .container {
+      max-width: 768px;
+      
+   }
+}
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1200px;
+   }
+}

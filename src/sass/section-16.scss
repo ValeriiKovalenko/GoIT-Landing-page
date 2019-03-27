@@ -1,3 +1,6 @@
+.sixteen-header{
+    margin-bottom: 30px;
+}
 .sixteen-headerbox{
     margin-bottom: 35px;
     &__heading{
@@ -37,10 +40,86 @@
 }
 .sixteen-imagebox{
     margin: 0 auto;
-    width: 446px;
-    height: 167px;
+    width: 445px;
+    height: 165px;
     background: url(../images/header-picture-16.jpg), rgb(22, 22, 22);
     background-size: cover;
     background-position: 0 12%;
     background-repeat: no-repeat;
 }
+
+.sixteen-first-article{
+    margin-bottom: 11px;
+    &__textbox{
+        margin: 0 auto;
+        width: 291px;
+    }
+    &__wrapper{
+        width: 237px;
+        padding-bottom: 9px;
+    }
+    &__heading{
+        display: inline;
+        width: 240px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: "Acrom";
+        font-weight: 500    ;
+        text-transform: uppercase;
+        background-color: #000000;
+        margin-bottom: 3px;
+    }
+    &__text{
+        width: 321px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3f4144;
+        font-family: "Acrom";
+        padding-bottom: 22px;
+    }
+}
+.sixteen-second-article{
+    &__header{
+        width: 371px;
+        margin: 0 auto;
+        margin-bottom: 21px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 20px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 800;
+        letter-spacing: -0.3px;
+    }
+    &__list{
+
+        &__item{
+            margin-bottom: 5px;
+            margin-bottom: 22px;
+            line-height: 18px;
+        }
+        &__textbox{
+            margin: 0 auto;
+            width: 242px;
+        }
+        &__sign{
+            padding-bottom: 8px;    
+            font-size: 13px;
+            line-height: 19px;
+            color: #000000;
+            font-family: "Acrom";
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            width: 263px;
+        }
+        &__text{
+            width: 260px;
+            font-size: 13px;
+            line-height: 19px;
+            color: #3f4144;
+            font-family: "Acrom";
+        }
+    }
+}
+

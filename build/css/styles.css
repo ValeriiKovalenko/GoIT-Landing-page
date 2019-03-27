@@ -427,45 +427,42 @@ template {
 
 /*div*/
 
-.section7__title_info {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  margin: 0 60px;
+.section7__main_content {
+  max-width: 366px;
+  margin: 0 auto;
 }
 
 /*h3*/
 
 .section7__section_title {
   display: block;
-  width: 168px;
-  margin: 0 auto;
+  width: 204px;
   font-family: 'Acrom ExtraBold';
   font-size: 18px;
-  margin-bottom: 18px;
   text-transform: uppercase;
   position: relative;
+  padding-left: 40px;
 }
 
 /*p & psevdo*/
 
 .section7__medium_font::before {
   content: "";
+  position: absolute;
   width: 20px;
   height: 3px;
   background-color: black;
-  position: absolute;
-  left: 10px;
-  top: 7px;
+  left: 0;
+  top: 5px;
 }
 
 .section7__medium_font {
   display: flex;
+  position: relative;
   font-family: 'Acrom Medium';
   font-size: 13.5px;
-  padding-left: 45px;
-  position: relative;
   margin-bottom: 36px;
+  padding-left: 40px;
 }
 
 /*picture*/
@@ -475,26 +472,37 @@ template {
   margin: 0 auto;
 }
 
+/*h4*/
+
+.section7__black_background {
+  display: block;
+  font-family: 'Acrom ExtraBold';
+  color: white;
+  width: 160px;
+  font-size: 0;
+  margin: 18px 0;
+}
+
+.section7__black_background:first-of-type {
+  width: 140px;
+}
+
+.section7__black_background__item {
+  font-size: 13.5px;
+  white-space: nowrap;
+  background-color: black;
+  margin-bottom: 2px;
+  display: inline-block;
+  padding: 0 2px;
+}
+
 /*p*/
 
 .section7__bold_font {
   font-family: 'Acrom Bold';
   font-size: 13.5px;
   width: 370px;
-  margin: 0 60px;
   margin-bottom: 16px;
-}
-
-/*h4*/
-
-.section7__black_background {
-  font-family: 'Acrom ExtraBold';
-  font-size: 13.5px;
-  color: white;
-  background-color: black;
-  width: 180px;
-  margin-bottom: 22px;
-  margin-top: 19px;
 }
 
 /*p*/
@@ -504,7 +512,7 @@ template {
   font-size: 13.5px;
   color: #9e9ea0;
   width: 328px;
-  margin: 0 60px;
+  margin: 0;
   margin-bottom: 27px;
 }
 

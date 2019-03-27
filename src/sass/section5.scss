@@ -1,4 +1,12 @@
-.people--text{
+body {
+    overflow: hidden;
+}
+
+.people {
+    padding: 20px 0px;
+}
+
+.people--text {
     text-transform: uppercase;
     font-size: 18px;
     width: 195px;
@@ -6,85 +14,100 @@
     display: block;
     margin: 0px auto;
     padding-bottom: 42px;
-      &::after{
-          content:' \005D';
-        }
-      &::before{
-          content:'\005B ';
-      }
+    font-family: 'Acrom';
+
+    &::after {
+        content: ' \005D';
+    }
+
+    &::before {
+        content: '\005B ';
+    }
 }
-.people--items{
-    font-size: 13.5px;
-    text-transform: uppercase;
+
+.people--items {
+    font-size: 13px;
     width: 210px;
     margin: 0 auto;
-    //    &::before{
-    //        content:'';
-    //        height: 1px;
-    //        width: 20px;
-    //        background-color:black;
-    //        display: inline-block;
-    //    }
+    font-family: 'Acrom';
+    padding-bottom: 30px;
 }
-.sreatch{
-    content:'';
+
+.streatch {
+    content: '';
     height: 1px;
     width: 20px;
-    background-color:black;
+    background-color: black;
     display: inline-block;
+    position: absolute;
+    top: 5px;
 }
-.people--items_your{
-    background-color:black;
-    color:white;
+
+.people--items_your {
+    background-color: black;
+    color: white;
+    padding-right: 50px;
 }
-.people-wrapper{
-    max-width: 293px;
-    max-height: 211px;
+
+.people-wrapper {
+    width: 293px;
+    height: 211px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: block;
     margin: 0px auto;
-    position: relative;
 }
-.people-wrapper_about{
+
+.people-wrapper_about {
     font-size: 5.46px;
     padding-right: 17px;
-    
+    padding-left: 20px;
+    font-family: 'Acrom';
+    letter-spacing: 0.07em;
+    overflow-y: scroll;
+    height: 180px;
 }
-.people-cart{
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E4E2E1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+}
+
+.people-cart {
     display: flex;
     padding: 15px 13px 18px 18px;
 }
-.people-scroll_line{
-     height: 100%;
-     width: 1px;
-     display: block;
-     background-color: black;
-     position: absolute;
-     top: 0;
-}
-.people-scroll_block{
-    height: 26px;
-    width: 2px;
-    background-color: black;
-    display: block;
-    position: absolute;
-}
-.marks{
+
+.marks {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+
 }
-.marks-number{
+
+.marks-number {
     margin-right: 10px;
 }
-.marks-number:last-child{
+
+.marks-namber span {
+    margin-right: 3px;
+}
+
+.marks-number span:last-child {
     margin-right: 0px;
 }
-.nav-buttons{
+
+.nav-buttons {
     display: flex;
 }
-.nav-button{
+
+.nav-button {
     width: 13px;
     height: 13px;
     background-color: black;
@@ -96,13 +119,90 @@
     display: inline-block;
 }
 
-.nav-button:last-child{
+.nav-button:last-child {
     margin-right: 0px;
 }
-.marks-namber_unactive{
+
+.marks-namber_unactive {
     font-size: 5px;
 }
-.marks-namber_active{
+
+.marks-namber_active {
     text-decoration: line-through;
     font-size: 10px;
+}
+
+.test {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.people-author {
+    font-size: 5px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .people {
+        display: flex;
+        justify-content: space-around;
+    }
+    .people-author{
+        font-size: 9px;
+    }
+    .people--text {
+        font-size: 37px;
+        padding-bottom: 22px;
+    }
+    .people-photo-img{
+        width: 75px;
+        height: 75px;
+    }
+    .people--items {
+        font-size: 9px;
+        width: 103px;
+    }
+    .test{
+        width: 190px;
+    }
+    .people-wrapper{
+        margin: 0px;
+    }
+    .people--items_your{
+        padding-right: 30px;
+    }
+    .people-wrapper{
+        width: 422px;
+        height: 305px;
+    }
+    .people-wrapper_about{
+        height: 276px;
+        font-size: 8px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .people--text {
+        font-size: 30px;
+       }
+    .people-wrapper{
+        width: 468px;
+        height: 338px;
+    }
+    .people{
+        justify-content: center;
+    }
+    .people--items {
+        font-size: 10px;
+        width: 103px;
+    }
+    .people-photo-img{
+        width: 85px;
+        height: 85px;
+    }
+    .people-wrapper_about{
+        height: 307px;
+        font-size: 9px;
+    }
 }

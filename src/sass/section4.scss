@@ -1,14 +1,14 @@
-.section4{
+.section4 {
     max-width: 480px;
     padding: 0 15px;
     display: flex;
     flex-direction: column;
     align-content: center;
     &__image{
-        margin-bottom: 34px;
-     }
-     &__subtitle{
-         margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    &__subtitle {
+        margin: 0 auto;
         font-family: Acrom;
         width: 256px;
         background-color: #000;
@@ -19,28 +19,29 @@
         text-transform: uppercase;
         margin-bottom: 35px;
     }
+    
+    &__p {
+        font-family: Acrom;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
 }
 
-.section4__p{
+.section4__text {
     font-family: Acrom;
-font-size: 14px;
-font-weight: 700;
-margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-bottom: 52px;
 }
 
-.section4__text{
-    font-family: Acrom;
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 19.5px;
-   margin-bottom: 52px;
-}   
-
- .section4__text-span{
-        background-color: #16ebfe;
+.section4__text-span {
+    display: inline-block;
+    background-color: #16ebfe;
 }
 
-.section4__title{
+.section4__title {
     text-align: center;
     margin: 0 auto;
     font-family: Acrom;
@@ -54,7 +55,7 @@ margin-bottom: 15px;
     margin-bottom: 23px;
 }
 
-.section4__text-one{
+.section4__text-one {
     margin: 0 auto;
     padding-left: 30px;
     position: relative;
@@ -66,7 +67,7 @@ margin-bottom: 15px;
     margin-bottom: 50px;
 }
 
-.section4__text-one::before{
+.section4__text-one::before {
     content: "";
     width: 14px;
     height: 4px;
@@ -76,7 +77,7 @@ margin-bottom: 15px;
     top: 6px;
 }
 
-.section4__item{
+.section4__item {
     padding-left: 50px;
     padding-right: 30px;
     list-style: none;
@@ -92,11 +93,11 @@ margin-bottom: 15px;
     position: absolute;
     left: 20px;
     top: 6px;
-    }
+}
 
 
-.section4__item-title{
-    font-family:Acrom;
+.section4__item-title {
+    font-family: Acrom;
     font-size: 14px;
     font-weight: 700;
     line-height: 19.5px;
@@ -104,11 +105,137 @@ margin-bottom: 15px;
     margin-bottom: 25px;
 }
 
-.section4__item-text{
+.section4__item-text {
     color: #3f4144;
     font-family: Acrom;
     font-size: 14px;
     font-weight: 400;
     line-height: 19.5px;
 
+}
+
+
+@media (min-width: 768px) {
+    .section4 {
+        padding: 60px 66px;
+        max-width: 768px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &__subtitle {
+            width: 75px;
+            height: 40px;
+            margin: 0 auto;
+            font-family: Acrom;
+            background-color: #000;
+            color: #ffffff;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 14.58px;
+            text-transform: uppercase;
+            margin-right: 30px;
+        }
+    
+        &__p {
+            font-family: Acrom;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 13.46px;
+            margin-bottom: 10px;
+            width: 160px;
+        }
+        
+}
+
+.section4__text {
+    font-family: Acrom;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11.78px;
+    width: 165px;
+
+}
+
+.section4__article-two {
+    display: flex;
+   flex-direction: column;
+    max-width: 274px;
+}
+
+.section4__article-two-titles {
+    display: flex;
+
+}
+
+.section4__article-two-description {
+    display: flex;
+}
+
+.section4__title {
+    text-align: left;
+    font-family: Acrom;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33.65px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    margin-right: 20px;
+}
+
+.section4__text-one {
+    width: 160px;
+    position: relative;
+    font-family: Acrom;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 13.46px;
+    margin-bottom: 45px;
+}
+
+.section4__text-one::before {
+    content: "";
+    width: 29px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+}
+
+.section4__item {
+    padding-left: 100px;
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.section4__item::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    left: 70px;
+    top: 6px;
+}
+
+
+.section4__item-title {
+    font-family: Acrom;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 13.46px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section4__item-text {
+    color: #3f4144;
+    font-family: Acrom;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 13.46px;
+}
 }

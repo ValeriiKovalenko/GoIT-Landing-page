@@ -419,11 +419,12 @@ template {
 
 .container {
   max-width: 480px;
+  position: relative;
 }
 
 .first-section__background {
-  background: radial-gradient(#0b223c, #0d1016);
-  padding: 15px 18px;
+  background: radial-gradient(#113155, #0d1016);
+  padding: 65px 15px 18px;
 }
 
 .first-section-header__button {
@@ -439,6 +440,12 @@ template {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px 20px;
+  background: rgba(12, 21, 32, 0.4);
 }
 
 .first-section {
@@ -475,7 +482,7 @@ template {
 
 .first-section__logo {
   font-size: 120px;
-  color: #000000;
+  color: rgba(14, 25, 39, 0.5);
   font-family: "Acrom";
   font-weight: 800;
   text-align: center;
@@ -538,7 +545,19 @@ template {
   padding-right: 5px;
 }
 
+.first-section-footer {
+  display: none;
+}
+
+.first-section-footer__links {
+  display: none;
+}
+
 .first-section-footer__span {
+  display: none;
+}
+
+.first-section-footer_span-two {
   display: none;
 }
 
@@ -571,6 +590,7 @@ template {
 
   .first-section__header {
     margin-bottom: 45px;
+    width: 768px;
   }
 
   .first-section {
@@ -647,11 +667,55 @@ template {
     font-family: "Acrom";
     font-weight: 500;
   }
+
+  .first-section-footer__links {
+    display: block;
+    position: relative;
+    left: 95%;
+    bottom: 200px;
+  }
+
+  .first-section-footer__links:hover {
+    fill: #16ebfe;
+  }
+
+  .first-sectiion-footer__facebook {
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .first-section__background {
+    padding: 65px 20px 35px;
+  }
+
+  .first-section__header {
+    width: 1200px;
+  }
+
+  .first-section-footer__links {
+    bottom: 0;
+  }
+
+  .first-section-footer_span-two {
+    display: inline-block;
+    font-size: 9px;
+    letter-spacing: 0px;
+    line-height: 11px;
+    color: #ffffff;
+    font-family: "Futura";
+    font-weight: 500;
+    vertical-align: bottom;
   }
 }
 

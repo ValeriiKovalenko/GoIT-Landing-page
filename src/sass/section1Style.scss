@@ -1,5 +1,6 @@
 .container {
     max-width: 480px;
+    position: relative;
 }
 @media screen and (min-width: 768px) {
     .container {
@@ -7,24 +8,22 @@
     }
 }
 .first-section__background {
-    background: radial-gradient(#0b223c , #0d1016 ) ;
-    padding: 15px 18px;
+    background: radial-gradient(#113155 , #0d1016 ) ;
+    padding: 65px 15px 18px;
+    
     
 }
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
-.first-section__background {
-    
-    background: url(../images/section1background.png);
+    .first-section__background {
+        background: url(../images/section1background.png);
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center;
-    
-    
-    
-}
+    }
+
 }
 .first-section-header__button {
     background: transparent;
@@ -40,10 +39,31 @@
     display: flex;
     justify-content: space-between ;
     margin-bottom: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    background: rgba(12, 21, 32, 0.4);
+    
 }
 @media screen and (min-width: 768px) {
     .first-section__header {
         margin-bottom: 45px;
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+
+    }
+    .first-section__background {
+        padding: 65px 20px 35px;
+    }
+    .first-section__header {
+        width: 1200px;
+        
     }
 }
 
@@ -80,7 +100,7 @@ padding-bottom: 28px;
     }
     &__logo {
         font-size: 120px;
-        color: #000000;
+        color: rgba(14, 25, 39, .5);
         font-family: "Acrom";
         font-weight: 800;
         text-align: center;
@@ -203,9 +223,14 @@ text-align: left;
     color: $aqua;
     padding-right: 5px;
 }
-.first-section-footer__span {
+.first-section-footer {
     display: none;
 }
+.first-section-footer__links {
+    display: none;
+}
+
+
 @media screen and (min-width: 768px) {
     .first-section-footer__span {
         display: inline-block;
@@ -218,4 +243,37 @@ line-height: 10px;
 font-family: "Acrom";
 font-weight: 500;
     }
+    .first-section-footer__links {
+        display: block;
+        position: relative;
+        left: 95%;
+        bottom: 200px;
+        &:hover {
+            fill: $aqua;
+        }
+    }
+    .first-sectiion-footer__facebook {
+        padding-right: 15px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .first-section-footer__links {
+        bottom: 0;
+    }
+.first-section-footer_span-two {
+    display: inline-block;
+    font-size: 9px;
+letter-spacing: 0px;
+line-height: 11px;
+color: #ffffff;
+font-family: "Futura";
+font-weight: 500;
+vertical-align: bottom;
+}
+}
+.first-section-footer__span {
+    display: none;
+}
+.first-section-footer_span-two {
+display: none;
 }

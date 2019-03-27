@@ -270,7 +270,7 @@
         flex-flow: column wrap;
         height: 157px;
         width: 305px;
-        margin-bottom:33px;
+        margin-bottom: 33px;
     }
 
     .second-section9__item {
@@ -312,17 +312,18 @@
         background: #000;
         position: absolute;
         top: 80%;
-    left: 25px;
+        left: 25px;
     }
 
     .second-section9__item {
         overflow: hidden;
+        height: 50px;
     }
 
     .first-section9__howtostart {
         font-size: 27px;
         margin-top: 0;
-        
+
     }
 
     .first-section9__whattodo {
@@ -330,15 +331,38 @@
     }
 
 
-    .second-section9__bottom {font-size:8.97px;
-        
+    .second-section9__bottom {
+        font-size: 8.97px;
+
     }
 
-    .second-section9__bottom::before {     width: 20px;
+    .second-section9__bottom::before {
+        width: 20px;
         top: 92%;
-    left: -7px;}
+        left: -7px;
+    }
 
+}
 
+@media screen and (min-width:1200px) { 
+    .first-section9__howtostart {font-size:30px;
+    width:293px;margin-bottom:31px;}
+
+    .first-section9__whattodo {font-size:10px;}
+
+    .first-section9__whattodo::before { top: 89%;
+        left: 12px;width:33px;
+
+    }
+
+    .second-section9__list {font-size:10px;}
+
+    .second-section9__article {font-size:8,75px;}
+
+    .second-section9__bottom {font-size:10px;}
+
+    .second-section9__bottom::before { top: 91%;
+        left: -19px;}
 
 
 

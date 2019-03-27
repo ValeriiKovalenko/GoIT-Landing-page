@@ -377,42 +377,42 @@ template {
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Regular.woff") format("woff");
+  src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Bold.woff") format("woff");
+  src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Thin.woff") format("woff");
+  src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Light.woff") format("woff");
+  src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-ExtraBold.woff") format("woff");
+  src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Medium.woff") format("woff");
+  src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -475,18 +475,36 @@ template {
 
 .second-section9__mention {
   font-size: 14px;
+  position: relative;
   color: black;
 }
 
 .second-section9__mention::before {
   content: "01.";
+  font-family: 'Acrom';
   color: black;
   position: absolute;
   height: 21px;
   width: 30px;
   top: -4%;
-  left: 112px;
+  left: -65px;
   font-size: 24px;
+}
+
+.second-section9__item {
+  padding-left: 55px;
+}
+
+.second-section9__item:nth-of-type(2) .second-section9__mention::before {
+  content: '02.';
+}
+
+.second-section9__item:nth-of-type(3) .second-section9__mention::before {
+  content: '03.';
+}
+
+.second-section9__item:nth-of-type(4) .second-section9__mention::before {
+  content: '04.';
 }
 
 .second-section9__mention::after {
@@ -496,8 +514,8 @@ template {
   background-color: #16ebfe;
   position: absolute;
   border: 1px;
-  top: 3%;
-  left: 136px;
+  top: 30px;
+  left: -36px;
   font-size: 24px;
 }
 
@@ -505,30 +523,6 @@ template {
   font-size: 14px;
   color: #3f4144;
   margin-bottom: 35px;
-}
-
-.second-section9__article::before {
-  content: "02.";
-  color: black;
-  position: absolute;
-  height: 21px;
-  width: 30px;
-  top: 31%;
-  left: 114px;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.second-section9__article::after {
-  content: "";
-  height: 10px;
-  width: 10px;
-  background-color: #16ebfe;
-  position: absolute;
-  border: 1px;
-  top: 38%;
-  left: 134px;
-  font-size: 24px;
 }
 
 .second-section9__mention3::before {
@@ -585,41 +579,14 @@ template {
 }
 
 .second-section9__mention {
-  padding-left: 148px;
   margin-bottom: 20px;
   font-size: 14px;
-}
-
-.second-section9__article {
-  padding-left: 148px;
-}
-
-.second-section9__mention2 {
-  padding-left: 148px;
-  margin-bottom: 35px;
-  font-size: 14px;
-}
-
-.second-section9__mention3 {
-  padding-left: 148px;
-  margin-bottom: 44px;
-  font-size: 14px;
-}
-
-.second-section9__mention4 {
-  padding-left: 148px;
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-
-.second-section9__article2 {
-  padding-left: 148px;
-  margin-bottom: 20px;
-  font-size: 15px;
 }
 
 .second-section9__list {
   text-align: left;
+  overflow: hidden;
+  max-width: 280px;
 }
 
 .second-section9__bottom::before {
@@ -638,6 +605,26 @@ template {
 
 .first-section9__howtostart {
   font-family: "Acrom";
+}
+
+.first-section9__whattodo {
+  font-family: "Acrom";
+  font-weight: 500;
+}
+
+.second-section9__mention {
+  font-family: "Acrom";
+  font-weight: 800;
+}
+
+.second-section9__article {
+  font-family: "Acrom";
+  font-weight: normal;
+}
+
+.second-section9__bottom {
+  font-family: "Acrom";
+  font-weight: 500;
 }
 
 * {

@@ -6,13 +6,18 @@
  .text_developer {
      margin-top: 25px;
      margin-bottom: 20px;
-     color: black;
-     font-size: 10px;
-     padding-left: 120px;
      font-size: 15px;
+     line-height: 23px;
+     color: #000000;
+     font-family: "Acrom";
+     font-weight: 800; 
+     padding-left: 120px;
  }
  .text_content {
-     font-size: 14px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3f4144;
+    font-family: "Acrom";
      color: #3f4144;
      padding-left: 95px;
  }
@@ -20,27 +25,43 @@
     padding-bottom: 30px;
     margin-left: 55px;
     font-size: 18px;
-    color: black;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
     padding: 0;
     margin-bottom: 15px;
 }
 .content_right {
     padding-bottom: 25px;
     font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
     color: black;
     margin-left: 65px;
 }
-.content_right:before {
-    content: "-";
-    background: black;
-    border: solid 2px;
-    
-}
+
 .image_desctop {
-    margin-left: 60px;
-    
+    margin-left: 100px;
 }
 .image_man {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+}
+.content_dash {
+    font-size: 22px;
+    padding-right: 10px;
+}
+.text_content::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 3px;
 }

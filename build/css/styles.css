@@ -580,6 +580,7 @@ template {
 .second-section9__bottom {
   font-size: 15px;
   color: #ff6b08;
+  max-width: 330px;
 }
 
 .second-section9__mention {

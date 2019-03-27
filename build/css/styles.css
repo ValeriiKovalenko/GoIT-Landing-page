@@ -536,13 +536,18 @@ template {
 }
 
 @media screen and (min-width: 768px) {
-  .point_one {
+  /*articles*/
+
+  .point_one,
+  .point_two {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     width: 644px;
     margin: 0 auto;
   }
+
+  /*div*/
 
   .section7__main_content {
     display: flex;
@@ -562,21 +567,39 @@ template {
     margin-bottom: 36px;
   }
 
+  /*p*/
+
   .section7__medium_font {
     font-size: 8.97px;
     width: 178px;
   }
 
+  /*picture young*/
+
   .section7__man_image {
     margin: 0;
   }
 
-  .section7__man_image img {
+  .young {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     width: 272px;
     height: 170px;
+  }
+
+  /*picture old*/
+
+  .section7__man_image {
+    margin: 0;
+  }
+
+  .old {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 272px;
+    height: 226px;
   }
 }
 

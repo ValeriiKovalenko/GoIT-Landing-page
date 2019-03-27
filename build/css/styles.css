@@ -419,10 +419,12 @@ template {
 
 /*SECTION 7*/
 
-.section7 {
+.section7__point_one,
+.section7__point_two {
   display: flex;
   justify-content: center;
   flex-flow: column;
+  margin: 0 auto;
 }
 
 /*div*/
@@ -436,7 +438,7 @@ template {
 
 .section7__section_title {
   display: block;
-  width: 204px;
+  width: 210px;
   font-family: 'Acrom ExtraBold';
   font-size: 18px;
   text-transform: uppercase;
@@ -462,6 +464,7 @@ template {
   position: relative;
   font-family: 'Acrom Medium';
   font-size: 13.5px;
+  line-height: 13.25px;
   margin-bottom: 36px;
   padding-left: 40px;
 }
@@ -505,7 +508,8 @@ template {
 .section7__bold_font {
   font-family: 'Acrom Bold';
   font-size: 13.5px;
-  width: 370px;
+  line-height: 13.5px;
+  width: 358px;
   margin-bottom: 16px;
 }
 
@@ -552,7 +556,7 @@ template {
 
   .section7__point_two {
     flex-flow: column wrap;
-    max-height: 254px;
+    height: 254px;
   }
 
   /*div*/
@@ -564,7 +568,7 @@ template {
     width: 200px;
     padding-left: 50px;
     margin: 0;
-    align-self: flex-end;
+    align-self: flex-start;
   }
 
   /*Article TWO
@@ -711,20 +715,26 @@ template {
 
   .section7__point_one,
   .section7__point_two {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
     width: 714px;
-    height: 260px;
+    height: 250px;
+    margin: 0 auto;
   }
 
   /*Article TWO-----------------------------------------------*/
 
   .section7__point_two {
-    max-height: 280px;
+    flex-flow: column wrap;
+    height: 290px;
   }
 
   /*div-------------------------------------------*/
 
   .section7__main_content {
     width: 348px;
+    padding: 0;
   }
 
   /*Article TWO
@@ -739,7 +749,7 @@ template {
 
   .section7__section_title {
     font-size: 30px;
-    width: 184px;
+    width: 187px;
   }
 
   /*picture young-----------------------------*/
@@ -763,6 +773,11 @@ template {
   .section7__main_content--order_two,
   .section7__main_content--order_three {
     width: 348px;
+    padding-left: 36px;
+  }
+
+  .section7__main_content--order_three {
+    margin-top: 46px;
   }
 
   /*h4---------------------------------------------*/
@@ -789,20 +804,25 @@ template {
 
   .section7_p {
     width: 226px;
+    padding-left: 32px;
   }
 
   /*p--------------------------------------------*/
 
   .section7__bold_font {
     font-size: 10px;
-    width: 226px;
+    width: 186px;
+    height: 56px;
+    margin-bottom: 18px;
   }
 
   /*p------------------------------*/
 
   .section7__content {
     font-size: 8.75px;
-    width: 226px;
+    width: 186px;
+    height: 48px;
+    margin: 0;
   }
 }
 

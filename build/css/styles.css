@@ -419,7 +419,7 @@ template {
 
 .section17 {
   width: 480px;
-  padding: 40px 100px;
+  padding: 40px 55px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -442,7 +442,7 @@ template {
 .section17__text {
   margin: 0 auto;
   width: 205px;
-  padding-left: 15px;
+  padding-left: 40px;
   font-family: Acrom;
   font-size: 14px;
   font-weight: 500;
@@ -458,7 +458,7 @@ template {
   height: 3px;
   background-color: #000;
   position: absolute;
-  left: -20px;
+  left: -10px;
   top: 8px;
 }
 
@@ -469,8 +469,11 @@ template {
 
 .section17__item-name1,
 .section17__item-name2 {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
   font-family: Acrom;
-  padding-left: 40px;
+  padding-left: 70px;
   position: relative;
   color: #000;
   font-size: 13px;
@@ -488,7 +491,7 @@ template {
   font-weight: 700;
   line-height: 30.25px;
   text-transform: uppercase;
-  left: -10px;
+  left: 10px;
   top: 0px;
 }
 
@@ -504,12 +507,13 @@ template {
   font-weight: 700;
   line-height: 30.25px;
   text-transform: uppercase;
-  left: -10px;
+  left: 10px;
   top: 0;
 }
 
-.section17__item-text {
-  padding-left: 40px;
+.section17__item-text1,
+.section17__item-text2 {
+  padding-left: 60px;
   position: relative;
   font-family: Acrom;
   font-size: 12px;
@@ -518,7 +522,7 @@ template {
   color: #3f4144;
 }
 
-.section17__item-text::before {
+.section17__item-text1::before {
   content: '';
   position: absolute;
   display: inline-block;
@@ -529,9 +533,33 @@ template {
   top: 0;
 }
 
+.section17__item-text2 {
+  position: relative;
+}
+
+.section17__item-text2::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #16ebfe;
+  left: 10px;
+  top: -30px;
+}
+
 .section17__span-item {
   background-color: #000;
   color: #fff;
+}
+
+.form__style {
+  padding: 0 55px;
+  margin: 0 auto;
+  width: 371px;
+  height: 348px;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
 }
 
 * {

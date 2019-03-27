@@ -131,6 +131,7 @@
     .section7__medium_font{
         font-size: 8.97px;
         width: 178px;
+        margin: 0;
     }
     /*picture young*/
     .section7__man_image{
@@ -223,11 +224,84 @@
         margin:0;
         margin-bottom: 39px;
     }
-}
 
+}
 /*DESKTOP*/
 @media screen and (min-width:1200px){
+    /*articles-------------------------------------------*/
+    .section7__point_one, 
+    .section7__point_two{
+        width: 714px;
+        height: 260px;
+    }
+    /*Article TWO-----------------------------------------------*/
+    .section7__point_two{
+        max-height: 280px;
+    }
+
+    /*div-------------------------------------------*/
     .section7__main_content{
-       
+        width: 348px;
+    }
+    /*Article TWO
+    div-important----------------------------*/
+    .section7__point_two {
+        .section7__main_content {
+            height: 118px;
+        }
+    }
+    /*Article One
+    h3----------------------------------------*/
+    .section7__section_title{
+        font-size: 30px;
+        width: 184px;
+    }
+    /*picture young-----------------------------*/
+    .young{
+        width: 306px;
+        height: 190px;
+    }
+    /*Article TWO*/
+    /*picture old---------------------------*/
+    .old{
+        width: 306px;
+        height: 250px;
+    }
+    /*div------------------------------*/
+    .section7__main_content--order_two,
+    .section7__main_content--order_three{
+        width: 348px;
+    }
+
+    /*h4---------------------------------------------*/
+    .section7__black_background{
+        font-size: 10px;
+    }
+
+    .section7__main_content:first-of-type .section7__black_background {
+        width: 104px;
+    }
+    
+    .section7__main_content:last-of-type .section7__black_background {
+        width: 110px;
+    }
+    /*span-----------------------*/
+    .section7__black_background__item {
+        font-size: 10px;
+    }
+
+    /*div--------------------------------*/
+    .section7_p{
+        width: 226px;
+    }
+    /*p--------------------------------------------*/
+    .section7__bold_font{
+        font-size: 10px;
+        width: 226px;
+    }
+    /*p------------------------------*/
+    .section7__content{
+        font-size: 8.75px;
+        width: 226px;
     }
 }

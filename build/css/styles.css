@@ -562,6 +562,7 @@ template {
   .real-facts__article1 {
     max-width: 189px;
     margin: 0;
+    margin-left: 60px;
   }
 
   .real-facts__article2 {
@@ -585,8 +586,12 @@ template {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     z-index: 6;
+  }
+
+  .article2_ul {
+    justify-content: space-between;
   }
 
   .article2_li {
@@ -610,6 +615,10 @@ template {
     order: 1;
   }
 
+  .article2_li::before {
+    display: none;
+  }
+
   .article_li__h4 {
     font-size: 17px;
     line-height: 20px;
@@ -619,7 +628,7 @@ template {
     font-size: 8px;
     line-height: 13px;
     margin-bottom: 5px;
-    display: inline-block;
+    display: inline;
   }
 
   .article_li__ptext {

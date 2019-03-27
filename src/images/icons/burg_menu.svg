@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 17" width="28" height="17">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="1">
+		<path id="burg_menu" class="shp0" d="M6.17,2.25h21.33v-2.25h-21.33zM10.95,9.47h16.55v-2.44h-16.55zM0.5,16.5h27v-2.25h-27z" />
+	</g>
+</svg>

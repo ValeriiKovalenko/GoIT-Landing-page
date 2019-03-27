@@ -4,9 +4,14 @@
    $orange : #ff6b08;
    $aqua : #16ebfe;
 
+
+
+@import './normalize';
+@import './fonts.scss';
+@import './section1Style.scss';
+
    
-   @import './normalize';
-   @import './fonts.scss';
+   
 
 
 

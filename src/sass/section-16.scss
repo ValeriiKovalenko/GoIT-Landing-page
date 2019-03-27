@@ -1,0 +1,46 @@
+.sixteen-headerbox{
+    margin-bottom: 35px;
+    &__heading{
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 14px;
+    }
+    &__textbox{
+        margin: 0 auto;
+        width: 252px;   
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-left: 101px;
+        &__line{
+            width: 19px;
+            height: 2.25px;
+            background-color: #000000;
+            margin-top: 8px;
+        }
+        &__text{
+            width: 216px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            font-family: "Acrom";
+            font-weight: 600;
+            letter-spacing: -.14px;
+            line-height: 1.4;
+        }
+    }
+}
+.sixteen-imagebox{
+    margin: 0 auto;
+    width: 446px;
+    height: 167px;
+    background: url(../images/header-picture-16.jpg), rgb(22, 22, 22);
+    background-size: cover;
+    background-position: 0 12%;
+    background-repeat: no-repeat;
+}

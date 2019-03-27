@@ -416,3 +416,249 @@ template {
   font-weight: 500;
   font-style: normal;
 }
+
+.section9 {
+  background-image: url(../images/background.png);
+  background-position: 131px 14px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.first-section9 {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.first-section9__howtostart {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.first-section9__howtostart__first {
+  color: white;
+  background-color: black;
+}
+
+.first-section9__howtostart__second {
+  display: block;
+}
+
+.first-section9__whattodo {
+  font-size: 14px;
+  margin-bottom: 62px;
+  font-weight: bold;
+  height: 30px;
+  padding: 0 40px;
+}
+
+.first-section9__whattodo::before {
+  content: '';
+  height: 3px;
+  width: 25px;
+  display: block;
+  background: black;
+  position: absolute;
+  top: 74%;
+  left: 35px;
+}
+
+.second-section9 {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.second-section9__list {
+  list-style-type: none;
+}
+
+.second-section9__mention {
+  font-size: 14px;
+  color: black;
+}
+
+.second-section9__mention::before {
+  content: "01.";
+  color: black;
+  position: absolute;
+  height: 21px;
+  width: 30px;
+  top: -4%;
+  left: 112px;
+  font-size: 24px;
+}
+
+.second-section9__mention::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  border: 1px;
+  top: 3%;
+  left: 136px;
+  font-size: 24px;
+}
+
+.second-section9__article {
+  font-size: 14px;
+  color: #3f4144;
+  margin-bottom: 35px;
+}
+
+.second-section9__article::before {
+  content: "02.";
+  color: black;
+  position: absolute;
+  height: 21px;
+  width: 30px;
+  top: 31%;
+  left: 114px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.second-section9__article::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  border: 1px;
+  top: 38%;
+  left: 134px;
+  font-size: 24px;
+}
+
+.second-section9__mention3::before {
+  content: "03.";
+  color: black;
+  position: absolute;
+  height: 21px;
+  width: 30px;
+  top: 49%;
+  left: 114px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.second-section9__mention3::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  border: 1px;
+  top: 56%;
+  left: 134px;
+  font-size: 20px;
+}
+
+.second-section9__mention4::before {
+  content: "04.";
+  color: black;
+  position: absolute;
+  height: 21px;
+  width: 30px;
+  top: 70%;
+  left: 115px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.second-section9__mention4::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  border: 1px;
+  top: 77%;
+  left: 135px;
+  font-size: 20px;
+}
+
+.second-section9__bottom {
+  font-size: 15px;
+  color: #ff6b08;
+}
+
+.second-section9__mention {
+  padding-left: 148px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.second-section9__article {
+  padding-left: 148px;
+}
+
+.second-section9__mention2 {
+  padding-left: 148px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+.second-section9__mention3 {
+  padding-left: 148px;
+  margin-bottom: 44px;
+  font-size: 14px;
+}
+
+.second-section9__mention4 {
+  padding-left: 148px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.second-section9__article2 {
+  padding-left: 148px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.second-section9__list {
+  text-align: left;
+}
+
+.second-section9__bottom::before {
+  content: "";
+  border: 1px solid;
+  background-color: black;
+  color: black;
+  height: 1px;
+  width: 30px;
+  -webkit-transform: rotate(122deg);
+  transform: rotate(122deg);
+  position: absolute;
+  top: 94%;
+  left: -26px;
+}
+
+.first-section9__howtostart {
+  font-family: "Acrom";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

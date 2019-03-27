@@ -432,11 +432,10 @@ template {
 
 .first-section9__howtostart {
   margin-top: 20px;
-}
-
-.first-section9__howtostart {
   font-size: 18px;
   margin-bottom: 25px;
+  text-transform: uppercase;
+  width: 265px;
 }
 
 .first-section9__howtostart__first {
@@ -648,6 +647,7 @@ template {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    background-position: 225px 6px;
   }
 
   .first-section9 {
@@ -697,8 +697,8 @@ template {
     display: block;
     background: #000;
     position: absolute;
-    top: 100%;
-    left: 22px;
+    top: 80%;
+    left: 25px;
   }
 
   .second-section9__item {
@@ -716,6 +716,12 @@ template {
 
   .second-section9__bottom {
     font-size: 8.97px;
+  }
+
+  .second-section9__bottom::before {
+    width: 20px;
+    top: 92%;
+    left: -7px;
   }
 }
 

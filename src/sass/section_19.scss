@@ -34,11 +34,49 @@
     }
 }
 
+@media (min-width: 768px) {
+    .operate_pay {
+        max-width: 768px;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-bottom: 5px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .operate_pay__div1 {
+        max-width: 320px;
+        margin: 0;
+        margin-left: 60px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .operate_pay__div2 {
+        min-width: 316px;
+        margin: 0;
+    }
+}
+
+
 .operate_div1_block {
     max-width: 219px;
     padding-left: 15px;
-    
+
 }
+
+@media (min-width: 768px) {
+    .operate_div1_block {
+        min-width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 
 .operate_pay__div1::before {
     content: "GO";
@@ -66,6 +104,17 @@
 
 }
 
+@media (min-width: 768px) {
+    .operate_div1_h3 {
+        max-width: 283px;
+        font-size: 27px;
+        line-height: 34px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: bold;
+    }
+}
+
 .operate_div1_p {
     position: relative;
     max-width: 192px;
@@ -76,6 +125,18 @@
     font-weight: 500;
     margin-bottom: 25px;
     padding-left: 12px;
+}
+
+@media (min-width: 768px) {
+    .operate_div1_p {
+        max-width: 238px;
+        font-size: 9px;
+        line-height: 13px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 500;
+        padding-left: 40px;
+    }
 }
 
 
@@ -90,6 +151,15 @@
 
 }
 
+@media (min-width: 768px) {
+    .operate_div1_p::before {
+        width: 28px;
+        height: 3px;
+        left: -1px;
+    }
+}
+
+
 .operate_pay_button {
     width: 218px;
     height: 42px;
@@ -102,15 +172,18 @@
     font-family: "Acrom";
     font-weight: 800;
     text-align: center;
-    margin: 0 auto;
-    text-align: center;
     text-transform: uppercase;
     border: none;
 }
+@media (min-width: 768px) {
+    .operate_pay_button {
+        width: 146px;
+        height: 28px;
+    }
+}
+
 
 .operate_pay_button:hover {
-    width: 218px;
-    height: 42px;
     box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
     background-color: #17ecff;
 }

@@ -72,12 +72,14 @@
  
     .content_man {
         display: flex;
+        justify-content: space-between;
       
         
     }
     .content_desctop {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
      
     }
     .text_content {
@@ -98,34 +100,46 @@
     }
     .text_content {
         padding: 0;
+        max-width: 190px;
     }
     .image_man {
-        width: 300px;
-        height: 170px;
-        padding-left: 30px;
+        width: 311px;
+        height: 180px;
+        padding: 0;
+        margin: 0;
     }
+    .content_man__text {
+        width: 311px;
+    }
+
     .content_right {
         font-size: 9px;
-line-height: 13px;
-color: #000000;
-font-family: "Acrom";
-font-weight: 500;
+        line-height: 13px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 500;
+        margin: 0;
+        max-width: 209px;
+        
     }
     .headline8 {
         font-size: 24px;
-line-height: 34px;
-color: #000000;
-font-family: "Acrom";
-font-weight: bold;
+        line-height: 34px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 20px;
     }
     .image_desctop {
-        margin-left: 60px;
+        margin-left: 0;
         width: 250px;
         height: 200px;
         padding-bottom: 30px;
     }
     .content_desctop__text {
         padding-right: 40px;
+        
     }
     .text_content {
         position: relative;
@@ -139,12 +153,55 @@ font-weight: bold;
     }
     .text_developer {
         font-size: 9px;
-line-height: 15px;
-color: #000000;
-font-family: "Acrom";
-font-weight: 800;
-margin: 0;
-    padding: 0;
-    padding-bottom: 10px;
+        line-height: 15px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 800;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .section8 {
+        max-width: 714px;
+    }
+    .image_desctop {
+        width: 320px;
+        height: 240px;
+    }
+    .text_developer {
+        font-size: 10px;
+        line-height: 16px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 800;
+    }
+    .text_content {
+        font-size: 9px;
+        line-height: 13px;
+        color: #3f4144;
+        font-family: "Acrom";
+    }
+    .headline8 {
+        font-size: 30px;
+        line-height: 38px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: bold;
+    }
+    .content_right {
+        font-size: 10px;
+        line-height: 15px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 500;
+    }
+    .image_man {
+        width: 350px;
+        height: 200px;
+        position: relative;
+        top: -45px;
+
     }
 }

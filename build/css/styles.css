@@ -471,11 +471,10 @@ template {
 
 .section17__item-name1,
 .section17__item-name2 {
-  margin: 0 auto;
   display: flex;
   align-items: flex-end;
   font-family: Acrom;
-  padding-left: 70px;
+  padding-left: 90px;
   position: relative;
   color: #000;
   font-size: 13px;
@@ -493,8 +492,8 @@ template {
   font-weight: 700;
   line-height: 30.25px;
   text-transform: uppercase;
-  left: 10px;
-  top: 0px;
+  left: 35px;
+  top: 0;
 }
 
 .section17__item-name2 {
@@ -509,13 +508,14 @@ template {
   font-weight: 700;
   line-height: 30.25px;
   text-transform: uppercase;
-  left: 10px;
-  top: -10px;
+  left: 30px;
+  top: 0;
 }
 
 .section17__item-text1,
 .section17__item-text2 {
-  padding-left: 70px;
+  width: 100%;
+  padding-left: 90px;
   position: relative;
   font-family: Acrom;
   font-size: 12px;
@@ -533,7 +533,7 @@ template {
   width: 10px;
   height: 10px;
   background-color: #16ebfe;
-  left: 40px;
+  left: 60px;
   top: 0;
 }
 
@@ -548,11 +548,12 @@ template {
   width: 10px;
   height: 10px;
   background-color: #16ebfe;
-  left: 40px;
-  top: -30px;
+  left: 60px;
+  top: -20px;
 }
 
-.section17__span-item {
+.section17__span {
+  padding: 0 0;
   background-color: #000;
   color: #fff;
 }

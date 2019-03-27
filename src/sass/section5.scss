@@ -90,7 +90,12 @@ body {
     justify-content: space-between;
 
 }
-
+.marks-namber_active,
+.marks-namber_unactive{
+    margin-right: 4px;
+}   &:last-child{
+    margin-right: 0px;
+}
 .marks-number {
     margin-right: 10px;
 }

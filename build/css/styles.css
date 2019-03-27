@@ -643,6 +643,82 @@ template {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .section9 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .first-section9 {
+    width: 197px;
+    height: 153px;
+  }
+
+  .second-section9__list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    height: 157px;
+    width: 305px;
+    margin-bottom: 33px;
+  }
+
+  .second-section9__item {
+    width: 145px;
+    padding-left: 45px;
+    margin-bottom: 10px;
+  }
+
+  .second-section9__mention {
+    font-size: 9px;
+    margin-bottom: 8px;
+  }
+
+  .second-section9__article {
+    font-size: 7.8px;
+  }
+
+  .second-section9__article {
+    margin: 0;
+  }
+
+  .second-section9__mention::before {
+    content: "01.";
+    position: absolute;
+    top: -4%;
+    left: -54px;
+  }
+
+  .first-section9__whattodo::before {
+    content: '';
+    height: 3px;
+    width: 25px;
+    display: block;
+    background: #000;
+    position: absolute;
+    top: 100%;
+    left: 22px;
+  }
+
+  .second-section9__item {
+    overflow: hidden;
+  }
+
+  .first-section9__howtostart {
+    font-size: 27px;
+    margin-top: 0;
+  }
+
+  .first-section9__whattodo {
+    font-size: 8.97px;
+  }
+
+  .second-section9__bottom {
+    font-size: 8.97px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;

@@ -3,7 +3,7 @@
     background-position: 38px 34px;
     background-repeat: no-repeat;
     text-align: center;
-    
+
 }
 
 .first-section9 {
@@ -14,7 +14,7 @@
 }
 
 .first-section9__howtostart {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .first-section9__howtostart {
@@ -189,7 +189,7 @@
 .second-section9__bottom {
     font-size: 15px;
     color: #ff6b08;
-    max-width:330px;
+    max-width: 330px;
 
 }
 
@@ -202,7 +202,7 @@
 .second-section9__list {
     text-align: left;
     overflow: hidden;
-    max-width:280px;
+    max-width: 280px;
 }
 
 .second-section9__bottom::before {
@@ -223,14 +223,117 @@
     font-family: "Acrom";
 }
 
-.first-section9__whattodo {font-family: "Acrom";
-    font-weight: 500; }
+.first-section9__whattodo {
+    font-family: "Acrom";
+    font-weight: 500;
+}
 
-    .second-section9__mention {font-family: "Acrom";
-        font-weight: 800; }
+.second-section9__mention {
+    font-family: "Acrom";
+    font-weight: 800;
+}
 
-        .second-section9__article {font-family: "Acrom";
-            font-weight: normal;}
+.second-section9__article {
+    font-family: "Acrom";
+    font-weight: normal;
+}
 
-            .second-section9__bottom {font-family: "Acrom";
-                font-weight: 500;}
+.second-section9__bottom {
+    font-family: "Acrom";
+    font-weight: 500;
+}
+
+
+@media screen and (min-width:768px) {
+
+
+
+
+    .section9 {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+
+
+
+    }
+
+    .first-section9 {
+        width: 197px;
+        height: 153px;
+    }
+
+    .second-section9__list {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        height: 157px;
+        width: 305px;
+        margin-bottom:33px;
+    }
+
+    .second-section9__item {
+        width: 145px;
+        padding-left: 45px;
+        margin-bottom: 10px;
+    }
+
+
+    .second-section9__mention {
+        font-size: 9px;
+        margin-bottom: 8px;
+    }
+
+    .second-section9__article {
+        font-size: 7.8px;
+    }
+
+
+    .second-section9__article {
+        margin: 0;
+    }
+
+
+    .second-section9__mention::before {
+        content: "01.";
+
+        position: absolute;
+
+        top: -4%;
+        left: -54px;
+    }
+
+    .first-section9__whattodo::before {
+        content: '';
+        height: 3px;
+        width: 25px;
+        display: block;
+        background: #000;
+        position: absolute;
+        top: 100%;
+        left: 22px;
+    }
+
+    .second-section9__item {
+        overflow: hidden;
+    }
+
+    .first-section9__howtostart {
+        font-size: 27px;
+        margin-top: 0;
+    }
+
+    .first-section9__whattodo {
+        font-size: 8.97px;
+    }
+
+
+    .second-section9__bottom {font-size:8.97px;}
+
+
+
+
+
+
+
+}

@@ -629,6 +629,10 @@ body {
     font-size: 8px;
   }
 
+  .section-paragraph {
+    width: 200px;
+  }
+
   .container {
     max-width: 768px;
   }
@@ -637,6 +641,7 @@ body {
 @media (min-width: 1200px) {
   .people--text {
     font-size: 30px;
+    padding-bottom: 44px;
   }
 
   .people-wrapper {

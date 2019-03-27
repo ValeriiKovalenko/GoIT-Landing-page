@@ -186,11 +186,15 @@ body {
         height: 276px;
         font-size: 8px;
     }
+    .section-paragraph{
+        width: 200px;
+    }
     
 }
 @media (min-width: 1200px) {
     .people--text {
         font-size: 30px;
+        padding-bottom: 44px;
        }
     .people-wrapper{
         width: 468px;

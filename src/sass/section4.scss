@@ -37,7 +37,6 @@
 }
 
 .section4__text-span {
-    display: inline-block;
     background-color: #16ebfe;
 }
 
@@ -121,7 +120,6 @@
         max-width: 768px;
         display: flex;
         flex-direction: row;
-        align-items: center;
         &__subtitle {
             width: 75px;
             height: 40px;
@@ -235,6 +233,115 @@
     color: #3f4144;
     font-family: Acrom;
     font-size: 9px;
+    font-weight: 400;
+    line-height: 13.46px;
+}
+}
+
+@media (min-width: 1200px){
+    .section4 {
+        margin: 0 auto;
+        padding: 60px 0;
+        max-width: 720px;
+        display: flex;
+        flex-direction: row;
+        &__subtitle {
+            width: 120px;
+            height: 50px;
+            margin: 0 auto;
+            font-family: Acrom;
+            background-color: #000;
+            color: #ffffff;
+            font-size: 8px;
+            font-weight: 700;
+            line-height: 16.25px;
+            text-transform: uppercase;
+            margin-right: 25px;
+        }
+    
+        &__p {
+            font-family: Acrom;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 15px;
+            margin-bottom: 10px;
+            width: 180px;
+        }
+        
+}
+
+.section4__text {
+    font-family: Acrom;
+    font-size: 10px;
+    line-height: 13.13px;
+    width: 177px;
+}
+.section4__title {
+    display: inline-block;
+    text-align: left;
+    font-family: Acrom;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33.65px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    width: 350px;
+}
+
+.section4__text-one {
+    width: 177px;
+    position: relative;
+    width: 177px;
+    color: #000000;
+    font-family: Acrom;
+    font-size: 10px;
+   font-weight: 500;
+   line-height: 15px;
+}
+
+.section4__text-one::before {
+    content: "";
+    width: 35px;
+    height: 4px;
+    background-color: #000000;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+}
+
+.section4__item {
+    padding-left: 100px;
+    list-style: none;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.section4__item::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    left: 70px;
+    top: 6px;
+}
+
+
+.section4__item-title {
+    font-family: Acrom;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13.46px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.section4__item-text {
+    color: #3f4144;
+    font-family: Acrom;
+    font-size: 10px;
     font-weight: 400;
     line-height: 13.46px;
 }

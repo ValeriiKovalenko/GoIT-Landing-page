@@ -377,42 +377,42 @@ template {
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Regular.woff") format("woff");
+  src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Bold.woff") format("woff");
+  src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Thin.woff") format("woff");
+  src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Light.woff") format("woff");
+  src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-ExtraBold.woff") format("woff");
+  src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Medium.woff") format("woff");
+  src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -428,7 +428,7 @@ body {
 .people--text {
   text-transform: uppercase;
   font-size: 18px;
-  width: 195px;
+  width: 200px;
   font-weight: 400;
   display: block;
   margin: 0px auto;
@@ -640,7 +640,7 @@ body {
 
   .people--items {
     font-size: 10px;
-    width: 103px;
+    width: 105px;
   }
 
   .people-photo-img {

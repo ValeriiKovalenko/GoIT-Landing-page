@@ -419,7 +419,7 @@ template {
 
 .section9 {
   background-image: url(../images/background.png);
-  background-position: 131px 14px;
+  background-position: 38px 34px;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -428,6 +428,10 @@ template {
   position: relative;
   max-width: 360px;
   margin: 0 auto;
+}
+
+.first-section9__howtostart {
+  margin-top: 20px;
 }
 
 .first-section9__howtostart {

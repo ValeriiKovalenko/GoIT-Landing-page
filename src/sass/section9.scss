@@ -1,8 +1,9 @@
 .section9 {
     background-image: url(../images/background.png);
-    background-position: 131px 14px;
+    background-position: 38px 34px;
     background-repeat: no-repeat;
     text-align: center;
+    
 }
 
 .first-section9 {
@@ -10,6 +11,10 @@
     max-width: 360px;
     margin: 0 auto;
 
+}
+
+.first-section9__howtostart {
+    margin-top:20px;
 }
 
 .first-section9__howtostart {
@@ -64,7 +69,6 @@
 .second-section9__list {
     list-style-type: none;
 }
-
 
 
 .second-section9__mention {

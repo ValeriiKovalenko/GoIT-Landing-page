@@ -48,7 +48,6 @@
     display: block;
     font-family: 'Acrom ExtraBold';
     color: white;
-    width: 160px;
     font-size: 0;
     margin: 18px 0;
 }
@@ -56,6 +55,11 @@
 .section7__black_background:first-of-type {
     width: 140px;
 }
+
+.section7__black_background:last-of-type {
+    width: 160px;
+}
+
 .section7__black_background__item {
     font-size: 13.5px;
     white-space: nowrap;

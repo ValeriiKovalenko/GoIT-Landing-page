@@ -425,7 +425,7 @@ template {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .real-facts__article1 {

@@ -417,6 +417,105 @@ template {
   font-style: normal;
 }
 
+.courses-price {
+  font-family: 'Acrom';
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+.important-text {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 23px;
+}
+
+.price {
+  height: 274px;
+  width: 371px;
+  background-color: #052139;
+  margin: 0 auto;
+  color: white;
+  font-weight: 400;
+  position: relative;
+}
+
+.price-video-cource {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.price-name {
+  width: 116px;
+}
+
+.price-uah {
+  font-size: 14.5px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.price-uah:before {
+  content: '';
+  width: 35px;
+  height: 1px;
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+
+.price-actualy {
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+  padding-left: 80px;
+  flex-direction: column;
+}
+
+.price-today_hover {
+  background-color: #16ebfe;
+  width: 90px;
+}
+
+.price-actualy-today {
+  position: absolute;
+  top: 159px;
+  left: 189px;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.price-actualy-today_uah {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.our-gift_first {
+  font-size: 14.5px;
+  font-weight: 400;
+  width: 282px;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+
+.our-gift_it {
+  font-size: 12.5px;
+  padding-top: 16px;
+  width: 282px;
+  margin: 0 auto;
+}
+
+.our-gift_copy {
+  font-size: 14.5px;
+  font-weight: 400;
+  width: 282px;
+  color: #ff6b08;
+  margin: 0 auto;
+  padding-top: 34px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

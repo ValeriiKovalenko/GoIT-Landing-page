@@ -1,0 +1,180 @@
+.operate_pay {
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 20px;
+
+
+
+    &__div1 {
+        display: flex;
+        max-width: 310px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 0 auto;
+        margin-bottom: 38px;
+        position: relative;
+
+
+    }
+
+    &__div2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 310px;
+        padding-bottom: 40px;
+    }
+}
+
+.operate_div1_block {
+    max-width: 219px;
+    padding-left: 15px;
+    
+}
+
+.operate_pay__div1::before {
+    content: "GO";
+    position: absolute;
+    font-size: 102px;
+    line-height: 81px;
+    color: #f7f7f7;
+    font-family: "Acrom";
+    font-weight: 800;
+    transform: rotate(90deg);
+    left: -127px;
+    bottom: 80px;
+
+}
+
+.operate_div1_h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.operate_div1_p {
+    position: relative;
+    max-width: 192px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding-left: 12px;
+}
+
+
+.operate_div1_p::before {
+    content: "";
+    width: 13px;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+    left: -10px;
+    top: 8px;
+
+}
+
+.operate_pay_button {
+    width: 218px;
+    height: 42px;
+    box-shadow: 0px 5px 6px rgba(196, 87, 15, 0.26);
+    background-color: #ff6b08;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #ffffff;
+    font-family: "Acrom";
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+.operate_pay_button:hover {
+    width: 218px;
+    height: 42px;
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+}
+
+.operate_pay_button:focus {
+    width: 218px;
+    height: 42px;
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
+}
+
+.operate_div2_ul {
+    list-style: none;
+}
+
+.operate_div2_h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.operate_div2_li_p1 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.operate_div2_li_p2 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #3f4144;
+    font-family: "Acrom";
+    padding-bottom: 27px;
+}
+
+.operate_div2_li_p3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    padding-bottom: 25px;
+}
+
+.video_span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+}
+
+.operate_div2_p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ff6b08;
+    font-family: "Acrom";
+    font-weight: 500;
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+}

@@ -617,6 +617,7 @@ template {
     font-size: 8px;
     line-height: 13px;
     margin-bottom: 5px;
+    display: inline;
   }
 
   .article_li__ptext {
@@ -631,6 +632,11 @@ template {
 }
 
 @media (min-width: 1200px) {
+  .section_3__article1 {
+    max-width: 210px;
+    margin: 0;
+  }
+
   .container {
     max-width: 1200px;
   }

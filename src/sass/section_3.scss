@@ -31,10 +31,6 @@
     }
 }
 
-
-
-
-
 @media (min-width: 768px) {
     .section_3 {
         background-repeat: no-repeat;
@@ -43,9 +39,6 @@
         background-image: url(../images/section_3_img_1.png)
     }
 }
-
-
-
 
 @media (min-width: 768px) {
     .section_3 {
@@ -61,10 +54,14 @@
     .section_3__article1 {
         max-width: 189px;
         margin: 0;
-
-
     }
 }
+@media (min-width: 1200px) {
+    .section_3__article1 {
+        max-width: 210px;
+        margin: 0;
+    }
+ }
 
 @media (min-width: 768px) {
     .section_3__article2 {
@@ -215,6 +212,7 @@
         font-size: 8px;
         line-height: 13px;
         margin-bottom: 5px;
+        display: inline-block;
     }
 }
 

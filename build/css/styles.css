@@ -514,6 +514,11 @@ body {
   margin-right: 4px;
 }
 
+.marks-namber_active:last-child,
+.marks-namber_unactive:last-child {
+  margin-right: 0px;
+}
+
 .marks-number {
   margin-right: 10px;
 }
@@ -555,7 +560,7 @@ body {
   font-size: 10px;
 }
 
-.test {
+.section-paragraph {
   width: 300px;
   margin: 0 auto;
   position: relative;

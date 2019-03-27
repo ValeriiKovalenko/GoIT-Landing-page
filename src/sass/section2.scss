@@ -240,11 +240,12 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    max-width: 690px;
   }
 
   .section2-questions {
     flex-flow: column wrap;
-    width: 568px;
+    width: 550px;
     max-height: 245px;
     align-content: space-between;
   }

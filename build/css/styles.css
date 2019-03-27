@@ -488,7 +488,6 @@ template {
 }
 
 .sixteen-first-article__heading {
-  display: inline;
   width: 240px;
   font-size: 14px;
   line-height: 20px;
@@ -522,10 +521,15 @@ template {
   letter-spacing: -0.3px;
 }
 
+.sixteen-second-article__list {
+  list-style-type: none;
+}
+
 .sixteen-second-article__list__item {
   margin-bottom: 5px;
   margin-bottom: 22px;
   line-height: 18px;
+  position: relative;
 }
 
 .sixteen-second-article__list__textbox {
@@ -550,6 +554,83 @@ template {
   line-height: 19px;
   color: #3f4144;
   font-family: "Acrom";
+}
+
+.sixteen-second-article__list__numberbox {
+  text-align: center;
+  width: 50px;
+  position: absolute;
+  -webkit-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg);
+  top: 22px;
+  left: 61px;
+  background-color: #ff6b08;
+}
+
+.sixteen-second-article__list__number {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Acrom";
+  font-weight: 500;
+}
+
+.sixteen-second-article__list__price {
+  display: flex;
+  flex-flow: row wrap;
+  width: 304px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.sixteen-second-article__list__price__wrapper {
+  width: 141px;
+  margin-left: 9px;
+  margin-top: 41px;
+}
+
+.sixteen-second-article__list__price__span {
+  font-size: 17px;
+  line-height: 29px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 500;
+  background-color: #16ebfe;
+}
+
+.sixteen-second-article__list__price__pricebox {
+  margin-top: 20px;
+}
+
+.sixteen-second-article__list__price__costnone {
+  display: block;
+  font-size: 17px;
+  line-height: 43px;
+  color: #3c3b40;
+  font-family: "Acrom";
+  font-weight: 800;
+  text-decoration: line-through;
+}
+
+.sixteen-second-article__list__price__costnone__grn {
+  text-transform: uppercase;
+}
+
+.sixteen-second-article__list__price__cost {
+  display: block;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 800;
+}
+
+.sixteen-second-article__list__price__cost__grn {
+  font-size: 23px;
+  line-height: 43px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 600;
 }
 
 * {

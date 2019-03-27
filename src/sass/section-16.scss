@@ -59,7 +59,7 @@
         padding-bottom: 9px;
     }
     &__heading{
-        display: inline;
+        // display: inline;
         width: 240px;
         font-size: 14px;
         line-height: 20px;
@@ -93,11 +93,13 @@
         letter-spacing: -0.3px;
     }
     &__list{
-
+        list-style-type: none;
+        
         &__item{
             margin-bottom: 5px;
             margin-bottom: 22px;
             line-height: 18px;
+            position: relative;
         }
         &__textbox{
             margin: 0 auto;
@@ -119,6 +121,76 @@
             line-height: 19px;
             color: #3f4144;
             font-family: "Acrom";
+        }
+        &__numberbox{
+            text-align: center;
+            width: 50px;
+            position: absolute;
+            transform: rotateZ(-90deg);
+            top: 22px;
+            left: 61px;
+            background-color: #ff6b08;
+        }
+        &__number{
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+            font-family: "Acrom";
+            font-weight: 500;
+        }
+
+        &__price{
+            display: flex;
+            flex-flow: row wrap;
+            width: 304px;
+            margin: 0 auto;
+            justify-content: space-between;
+
+            &__wrapper{
+                width: 141px;
+                margin-left: 9px;
+                margin-top: 41px;
+            }
+            &__span{
+                font-size: 17px;
+                line-height: 29px;
+                color: #000000;
+                font-family: "Acrom";
+                font-weight: 500;
+                background-color: #16ebfe;
+            }
+            &__pricebox{
+                margin-top: 20px;
+            }
+            &__costnone{
+                display: block;
+                font-size: 17px;
+                line-height: 43px;
+                color: #3c3b40;
+                font-family: "Acrom";
+                font-weight: 800;
+                text-decoration: line-through;
+
+                &__grn{
+                    text-transform: uppercase;
+                }
+            }
+            &__cost{
+                display: block;
+                font-size: 36px;
+                line-height: 43px;
+                color: #000000;
+                font-family: "Acrom";
+                font-weight: 800;
+
+                &__grn{
+                    font-size: 23px;
+                    line-height: 43px;
+                    color: #000000;
+                    font-family: "Acrom";
+                    font-weight: 600;
+                }
+            }
         }
     }
 }

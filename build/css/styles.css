@@ -611,30 +611,20 @@ template {
   }
 
   .six-imagebox {
-    width: 250px;
-    height: 480px;
-    margin-left: 15px;
+    width: 288px;
+    height: 527px;
     background: url(../images/six-man.png);
     background-repeat: no-repeat;
-    background-position: 1px -51px;
+    background-position: -33px -54px;
     position: relative;
+    background-size: contain;
   }
 
   .six-imagebox::after {
-    content: 'hard';
-    font-size: 140px;
-    line-height: 112px;
-    text-transform: uppercase;
-    color: #000000;
-    font-family: "Acrom";
-    font-weight: 800;
-    opacity: .1;
-    position: absolute;
-    top: 145px;
-    left: -8px;
-    z-index: -1;
-    -webkit-transform: rotateZ(90deg);
-    transform: rotateZ(90deg);
+    font-size: 156px;
+    line-height: 125px;
+    top: 160px;
+    left: -45px;
   }
 
   .six-textbox {
@@ -643,7 +633,7 @@ template {
 
   .six-headerbox {
     max-width: 429px;
-    padding-bottom: 34px;
+    padding-bottom: 39px;
   }
 
   .six-headerbox__header {
@@ -664,12 +654,13 @@ template {
     font-size: 10px;
     line-height: 15px;
     letter-spacing: -.05px;
-    width: 165px;
+    width: 207px;
+    padding-left: 14px;
   }
 
   .six-headerbox__wrapper {
-    width: 211px;
-    margin-left: 0px;
+    width: 244px;
+    margin-left: 1px;
   }
 
   .six-listbox__list {
@@ -678,20 +669,21 @@ template {
   }
 
   .six-listbox__list__item {
-    padding-left: 10px;
+    padding-left: 14px;
   }
 
   .six-listbox__list__sign {
     font-size: 10px;
     line-height: 16px;
     padding-bottom: 3px;
+    letter-spacing: 0.1px;
   }
 
   .six-listbox__list__text {
     font-size: 9px;
-    line-height: 13px;
-    width: 205px;
-    padding-bottom: 10px;
+    line-height: 15px;
+    width: 231px;
+    padding-bottom: 13px;
   }
 
   .container {

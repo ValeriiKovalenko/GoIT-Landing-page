@@ -1,0 +1,114 @@
+.section17{
+    width: 480px;
+    padding: 40px 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    &__title{
+        margin: 0 auto;
+        text-align: center;
+        font-family: Acrom;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        width: 275px;
+        margin-bottom: 25px;
+    }
+    &__text{
+        margin: 0 auto;
+        width: 205px;
+        padding-left: 15px;
+        font-family: Acrom;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19.5px;
+        position: relative;
+        margin-bottom: 60px;
+    }
+}
+
+.section17__text::before{
+    content: '';
+    display: block;
+    width: 20px;
+     height: 3px;
+     background-color: #000;
+     position: absolute;
+     left: -20px;
+     top: 8px;
+}
+
+.section17__item{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.section17__item-name1,
+.section17__item-name2{
+    font-family: Acrom;
+    padding-left: 40px;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21.85px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section17__item-name1::before{
+    position: absolute;
+    content: '01.';
+    font-family: Acrom;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.25px;
+    text-transform: uppercase;
+    left: -10px;
+    top: 0px;
+}
+
+.section17__item-name2{
+    position: relative;
+}
+
+.section17__item-name2::before{
+position: absolute;
+content: '02.';
+font-family: Acrom;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.25px;
+text-transform: uppercase;
+left: -10px;
+top: 0;
+}
+
+.section17__item-text{
+    padding-left: 40px;
+    position: relative;
+    font-family: Acrom;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.65px;
+    color: #3f4144;
+}
+
+.section17__item-text::before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #16ebfe;
+    left: 10px;
+    top: 0;
+}
+
+.section17__span-item{
+    background-color: #000;
+    color: #fff;
+}

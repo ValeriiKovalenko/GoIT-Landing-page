@@ -551,6 +551,8 @@ template {
     height: 180px;
     padding: 0;
     margin: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .content_man__text {

@@ -1,10 +1,11 @@
-.section17{
+.section17 {
     width: 480px;
     padding: 40px 55px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    &__title{
+
+    &__title {
         margin: 0 auto;
         text-align: center;
         font-family: Acrom;
@@ -17,7 +18,8 @@
         width: 275px;
         margin-bottom: 25px;
     }
-    &__text{
+
+    &__text {
         margin: 0 auto;
         display: flex;
         align-items: flex-end;
@@ -32,29 +34,29 @@
     }
 }
 
-.section17__text::before{
+.section17__text::before {
     content: '';
     display: block;
     width: 20px;
-     height: 3px;
-     background-color: #000;
-     position: absolute;
-     left: -10px;
-     top: 8px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    left: -10px;
+    top: 8px;
 }
 
-.section17__item{
+.section17__item {
     list-style: none;
     margin-bottom: 40px;
 }
 
-.section17__span-text{
+.section17__span-text {
     background-color: #000;
     color: #fff;
 }
 
 .section17__item-name1,
-.section17__item-name2{
+.section17__item-name2 {
     display: flex;
     align-items: flex-end;
     font-family: Acrom;
@@ -68,7 +70,7 @@
     margin-bottom: 13px;
 }
 
-.section17__item-name1::before{
+.section17__item-name1::before {
     position: absolute;
     content: '01.';
     font-family: Acrom;
@@ -80,24 +82,24 @@
     top: 0;
 }
 
-.section17__item-name2{
+.section17__item-name2 {
     position: relative;
 }
 
-.section17__item-name2::before{
-position: absolute;
-content: '02.';
-font-family: Acrom;
-font-size: 25px;
-font-weight: 700;
-line-height: 30.25px;
-text-transform: uppercase;
-left: 30px;
-top: 0;
+.section17__item-name2::before {
+    position: absolute;
+    content: '02.';
+    font-family: Acrom;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.25px;
+    text-transform: uppercase;
+    left: 30px;
+    top: 0;
 }
 
 .section17__item-text1,
-.section17__item-text2{
+.section17__item-text2 {
     width: 100%;
     padding-left: 90px;
     position: relative;
@@ -109,7 +111,7 @@ top: 0;
     align-items: flex-end;
 }
 
-.section17__item-text1::before{
+.section17__item-text1::before {
     content: '';
     position: absolute;
     display: inline-block;
@@ -120,10 +122,11 @@ top: 0;
     top: 0;
 }
 
-.section17__item-text2{
+.section17__item-text2 {
     position: relative;
 }
-.section17__item-text2::before{
+
+.section17__item-text2::before {
     content: '';
     position: absolute;
     display: inline-block;
@@ -134,47 +137,47 @@ top: 0;
     top: -20px;
 }
 
-  .section17__span{
-      padding: 0 0;
+.section17__span {
+    padding: 0 0;
     background-color: #000;
     color: #fff;
 }
 
-.form__style{
-padding: 70px 55px;
-margin: 0 auto;
-width: 371px;
-height: 348px;
-box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
-background-color: #ffffff;
+.form__style {
+    padding: 70px 55px;
+    margin: 0 auto;
+    width: 371px;
+    height: 348px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
 }
 
-.form__item{
+.form__item {
     list-style: none;
 }
 
 .form__name,
 .form__phone,
-.form__email{
-width: 246px;
-height: 30px;
-padding-left: 20px;
-outline: 0;
-border-width: 0 0 2px;
-border-color: #bfbfbf;
-color: #000;
-font-family: Acrom;
-font-size: 9px;
-font-weight: 400;
-line-height: 0.9;
-padding: 0;
+.form__email {
+    width: 246px;
+    height: 30px;
+    padding-left: 20px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #bfbfbf;
+    font-family: Acrom;
+    color: #000;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 0.9;
+    padding: 0;
 }
 
-.form__email{
+.form__email {
     margin-bottom: 20px;
 }
 
-.form__span{
+.form__span {
     color: #bfbfbf;
     font-family: Acrom;
     font-size: 8px;
@@ -182,7 +185,8 @@ padding: 0;
     line-height: 11.95px;
     padding-left: 2px
 }
-.form__button{
+
+.form__button {
     display: block;
     text-align: center;
     width: 174px;
@@ -195,13 +199,104 @@ padding: 0;
     font-size: 8px;
     font-weight: 700;
     line-height: 11.95px;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
-    .section4{
-       max-width: 768px;
-       display: flex;
-       flex-direction: row;
+    .section17 {
+        padding: 60px 0;
+        min-width: 768px;
+        display: flex;
+        flex-direction: row;
+        &__title {
+            margin: 0 auto;
+            margin-left: 40px;
+            text-align: left;
+            font-family: Acrom;
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 33.65px;
+            width: 270px;
+            margin-bottom: 25px;
+        }
+    
+        &__text {
+            margin: 0 auto;
+            width: 205px;
+            padding-left: 40px;
+            font-size: 9px;
+            font-weight: 500;
+            line-height: 13.46px;
+            margin-bottom: 30px;
+        }
     }
+     
+    .section17__listing{
+        margin-right: 100px;
+    }
+    .section17__item {
+        margin-bottom: 20px;
+    }
+     
+    .section17__item-name1,
+.section17__item-name2 {
+    padding-left: 0;
+    margin: 0 auto;
+    font-size: 9px;
+    width: 150px;
+    font-weight: 700;
+    line-height: 14.58px;
+    margin-bottom: 10px;
 }
+
+.section17__item-name1::before {
+    padding-left: 0;
+    font-size: 17px;
+    top: -7px;
+    left: -40px;
+}
+
+.section17__item-name2::before {
+    padding-left: 0;
+    font-size: 17px;
+    top: -7px;
+    left: -40px;
+}
+.section17__item-text1,
+.section17__item-text2 {
+    padding-left: 0;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 8px;
+   font-weight: 400;
+   line-height: 11.78px;
+}
+
+.section17__item-text1::before {
+    width: 7px;
+    height: 7px;
+    left: -20px;
+    top: -5px;
+}
+
+.section17__item-text2::before {
+    width: 7px;
+    height: 7px;
+    left: -20px;
+    top: -20px;
+}
+.form__style {
+    width: 313px;
+    height: 293px;
+}
+
+.form__name,
+.form__phone,
+.form__email {
+    padding: 30px 55px;
+    width: 203px;
+    height: 30px;
+    padding-left: 20px;
+    padding: 0;
+}
+ }

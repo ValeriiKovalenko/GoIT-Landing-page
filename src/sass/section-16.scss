@@ -1,0 +1,624 @@
+.sixteen-section{
+    margin-top: 20px;
+}
+.sixteen-header{
+    margin-bottom: 30px;
+}
+.sixteen-headerbox{
+    margin-bottom: 35px;
+    &__heading{
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 14px;
+    }
+    &__textbox{
+        margin: 0 auto;
+        max-width: 252px;   
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-left: 101px;
+        &__line{
+            width: 19px;
+            height: 2.25px;
+            background-color: #000000;
+            margin-top: 8px;
+        }
+        &__text{
+            max-width: 216px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000000;
+            font-family: "Acrom";
+            font-weight: 600;
+            letter-spacing: -.14px;
+            line-height: 1.4;
+        }
+    }
+}
+.sixteen-imagebox{
+    margin: 0 auto;
+    max-width: 445px;
+    height: 165px;
+    background: url(../images/header-picture-16.jpg), rgb(22, 22, 22);
+    background-size: cover;
+    background-position: 0 12%;
+    background-repeat: no-repeat;
+}
+
+.sixteen-first-article{
+    margin-bottom: 11px;
+    &__textbox{
+        margin: 0 auto;
+        max-width: 291px;
+    }
+    &__wrapper{
+        max-width: 237px;
+        padding-bottom: 9px;
+        font-size: 0;
+    }
+    &__heading{
+        max-width: 240px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: "Acrom";
+        font-weight: 500    ;
+        text-transform: uppercase;
+        background-color: #000000;
+        margin-bottom: 3px;
+
+        &__row{
+            max-width: 240px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+            font-family: "Acrom";
+            font-weight: 500    ;
+            text-transform: uppercase;
+            background-color: #000000;
+            margin-bottom: 3px;
+        }
+    }
+    &__text{
+        max-width: 371px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3f4144;
+        font-family: "Acrom";
+        padding-bottom: 22px;
+        letter-spacing: -.8px;
+    }
+}
+.sixteen-second-article{
+    &__header{
+        max-width: 371px;
+        margin: 0 auto;
+        margin-bottom: 21px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 20px;
+        color: #000000;
+        font-family: "Acrom";
+        font-weight: 800;
+        letter-spacing: -0.3px;
+    }
+    &__list{
+        list-style-type: none;
+        
+        &__item{
+            width: 346px;
+            margin-left: 62px;
+            margin-bottom: 22px;
+            line-height: 18px;
+            position: relative;
+        }
+        &__textbox{
+            margin: 0 auto;
+            width: 242px;
+        }
+        &__sign{
+            padding-bottom: 8px;    
+            font-size: 13px;
+            line-height: 19px;
+            color: #000000;
+            font-family: "Acrom";
+            font-weight: bold;
+
+            max-width: 356px;
+        }
+        &__text{
+            width: 260px;
+            font-size: 13px;
+            line-height: 19px;
+            color: #3f4144;
+            font-family: "Acrom";
+        }
+        &__numberbox{
+            text-align: center;
+            width: 50px;
+            position: absolute;
+            transform: rotateZ(-90deg);
+            top: 23px;
+            background-color: #ff6b08;
+        }
+        &__number{
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+            font-family: "Acrom";
+            font-weight: 500;
+        }
+
+        &__price{
+            display: flex;
+            flex-flow: row wrap;
+            width: 304px;
+            margin: 0 auto;
+            justify-content: space-between;
+
+            &__wrapper{
+                width: 141px;
+                margin-left: 9px;
+                margin-top: 41px;
+            }
+            &__span{
+                font-size: 17px;
+                line-height: 29px;
+                color: #000000;
+                font-family: "Acrom";
+                font-weight: 500;
+                background-color: #16ebfe;
+            }
+            &__pricebox{
+                margin-top: 20px;
+            }
+            &__costnone{
+                display: block;
+                font-size: 17px;
+                line-height: 43px;
+                color: #3c3b40;
+                font-family: "Acrom";
+                font-weight: 800;
+                text-decoration: line-through;
+
+                &__grn{
+                    text-transform: uppercase;
+                }
+            }
+            &__cost{
+                display: block;
+                font-size: 36px;
+                line-height: 43px;
+                color: #000000;
+                font-family: "Acrom";
+                font-weight: 800;
+
+                &__grn{
+                    font-size: 23px;
+                    line-height: 43px;
+                    color: #000000;
+                    font-family: "Acrom";
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width: 768px){
+    .sixteen-header{
+        display: flex;
+        flex-flow: row-reverse wrap;
+        max-width: 637px;
+        margin-bottom: 43px;
+    }
+    .sixteen-headerbox{
+        margin-top: 20px;
+
+        &__heading{
+            font-size: 27px;
+            line-height: 34px;
+            text-align: left;
+            max-width: 215px;
+        }
+        &__textbox{
+            margin: 0;
+            width: 191px;  
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            &__line{
+                width: 28px;
+                height: 3px;
+                margin-top: 6px;
+            }
+            &__text{
+                font-size: 10px;
+                line-height: 13px;
+                font-weight: 800;
+                max-width: 147px;;
+            }
+        }
+    }
+    .sixteen-imagebox{
+        margin-left: 95px;
+        width: 275px;
+        height: 168px;
+        background-position: 50% 31%;
+        background-repeat: no-repeat;
+    }
+
+    .sixteen-first-article{
+        margin: 0 auto;
+        margin-bottom: 53px;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 613px;
+        justify-content: space-between;
+        &__textbox{
+            max-width: 334px;
+            height: 135px;
+            display: flex;
+            flex-flow: row wrap;
+            margin-top: 44px;
+        }
+        &__wrapper{
+            max-width: 112px;
+            padding-bottom: 0;
+        }
+        &__heading{
+            display: inline-block;
+            padding-left: 2px;
+            padding-right: 2px;
+            max-width: 240px;
+            font-size: 9px;
+            line-height: 14px;
+            font-weight: 800;
+            margin-bottom: 1px;
+
+            &__row{
+                display: inline-block;
+                padding-left: 0;
+                padding-right: 2px;
+                font-size: 9px;
+                line-height: 14px;
+                font-weight: 800;
+                margin-bottom: 1px;
+            }
+        }
+        &__text{
+            max-width: 180px;
+            font-size: 8px;
+            line-height: 12px;
+            letter-spacing: 0px;
+            padding-bottom: 0;
+        }
+        &__imagebox{
+            width: 224px;
+            height: 201px;
+            background: url(../images/first-article-picture-16.jpg), rgb(20, 20, 20);
+            background-size: 327px 245px;
+            background-position: 100%;
+            background-repeat: no-repeat;
+        }
+        
+    }
+    .sixteen-second-article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 750px;
+
+        &__header{
+            margin: 0;
+            margin-left: 94px;
+            font-size: 11px;
+            line-height: 15px;
+            max-width: 118px;
+            font-weight: 900;
+        }
+        &__list{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            max-width: 476px;
+
+            &__item{
+                margin-bottom: 18px;   
+                margin-left: 0;
+                max-width: 152px;
+            }
+            &__numberbox{
+                display: inline-grid;
+                width: 22px;
+                top: 9px;
+                left: -19px;
+            }
+            &__number{
+                font-size: 6px;
+                line-height: 9px;
+            }
+            &__textbox{
+                max-width: 134px;
+                margin: 0;
+            }
+            &__sign{
+                font-size: 9px;
+                line-height: 12px;
+                max-width: 104px;
+            }
+            &__text{
+                max-width: 127px;
+                font-size: 8px;
+                line-height: 12px;
+            }
+            &__price{
+                width: 167px;
+                margin: 0;
+                &__wrapper{
+                    width: 76px;
+                    margin-top: 26px;
+                    margin-left: 0;
+                }
+                &__pricebox{
+                    max-width: 78px;
+                    margin-top: 15px;
+                }
+                &__span{
+                    font-size: 9px;
+                    font-weight: 800;
+                    max-width: 76px;
+                    margin-bottom: 4px;
+                    line-height: 12px;
+                    display: block;
+                }
+                &__costnone{
+                    display: inline;
+                    font-size: 10px;
+                    line-height: 10px;
+                    &__grn{
+                        font-size: 10px;
+                        display: inline;
+                        text-transform: lowercase;
+                        color: #3c3b40;
+                        font-family: "Acrom";
+                    }
+                }
+                &__cost{
+                    display: inline;
+                    font-size: 17px;
+                    line-height: 20px;
+                    &__grn{
+                        display: inline;
+                        font-size: 15px;
+                        line-height: 43px;
+                        color: #000;
+                        font-family: "Acrom";
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+    .sixteen-second-article__list__item:nth-of-type(5) {
+        width: 140px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+    .sixteen-header{
+        padding-left: 84px;
+        max-width: 774px;
+        margin-bottom: 49px;
+    }
+    .sixteen-headerbox{
+        margin-top: 20px;
+        display: inline-block;
+
+        &__heading{
+            font-size: 30px;
+            line-height: 38px;
+            max-width: 240px;
+        }
+        &__textbox{
+            width: 210px;
+            padding-top: 3px;
+            &__line{
+                width: 31px;
+                height: 4px;
+                margin-top: 6px;
+            }
+            &__text{
+                font-size: 10px;
+                line-height: 15px;
+                max-width: 156px;;
+            }
+        }
+    }
+    .sixteen-imagebox{
+        display: inline-block;
+        margin-left: 88px;
+        width: 304px;
+        height: 184px;
+    }
+
+    .sixteen-first-article{
+        margin: 0;
+        margin-left: 142px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 682px;
+        justify-content: space-between;
+        &__textbox{
+            max-width: 375px;
+            height: 135px;
+            display: flex;
+            flex-flow: row wrap;
+            margin-top: 50px;
+        }
+        &__wrapper{
+            max-width: 112px;
+            padding-bottom: 25px;
+        }
+        &__heading{
+            display: inline-block;
+            padding-left: 2px;
+            padding-right: 2px;
+            max-width: 240px;
+            font-size: 10px;
+            line-height: 16px;
+            font-weight: 800;
+            margin-bottom: 1px;
+
+            &__row{
+                display: inline-block;
+                padding-left: 0;
+                padding-right: 2px;
+                font-size: 10px;
+                line-height: 16px;
+                font-weight: 800;
+                margin-bottom: 1px;
+            }
+        }
+        &__text{
+            max-width: 201px;
+            font-size: 9px;
+            line-height: 13px;
+            letter-spacing: 0;
+            padding-left: 23px;
+            padding-bottom: 0;
+        }
+        &__imagebox{
+            width: 250px;
+            height: 224px;
+            background: url(../images/first-article-picture-16.jpg),#141414;
+            background-size: 375px 258px;
+            background-position: 98% 71%;
+            background-repeat: no-repeat;
+        }
+        
+    }
+    .sixteen-second-article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 897px;
+
+        &__header{
+            margin: 0;
+            margin-left: 171px;
+            font-size: 10px;
+            line-height: 16px;
+            max-width: 116px;
+            font-weight: 900;
+        }
+        &__list{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            max-width: 518px;
+
+            &__item{
+                margin-bottom: 24px;   
+                margin-left: 0;
+                max-width: 152px;
+            }
+            &__numberbox{
+                display: inline-grid;
+                width: 22px;
+                top: 9px;
+                left: -31px;
+            }
+            &__number{
+                font-size: 6px;
+                line-height: 10px;
+            }
+            &__textbox{
+                max-width: 134px;
+                margin: 0;
+            }
+            &__sign{
+                font-size: 10px;
+                line-height: 13px;
+                max-width: 131px;
+            }
+            &__text{
+                max-width: 155px;
+                font-size: 9px;
+                line-height: 13px;
+            }
+            &__price{
+                width: 167px;
+                margin: 0;
+                &__wrapper{
+                    width: 76px;
+                    margin-top: 26px;
+                    margin-left: 0;
+                }
+                &__pricebox{
+                    max-width: 78px;
+                    margin-top: 15px;
+                    line-height: 0.8;
+                }
+                &__span{
+                    font-size: 9px;
+                    line-height: 15px;
+                    font-weight: 800;
+                    max-width: 76px;
+                    margin-bottom: 4px;
+                    display: block;
+                }
+                &__costnone{
+                    display: inline;
+                    font-size: 10px;
+                    line-height: 10px;
+                    &__grn{
+                        font-size: 10px;
+                        display: inline;
+                        text-transform: lowercase;
+                        color: #3c3b40;
+                        font-family: "Acrom";
+                    }
+                }
+                &__cost{
+                    display: inline;
+                    font-size: 19px;
+                    line-height: 20px;
+                    &__grn{
+                        display: inline;
+                        font-size: 12px;
+                        line-height: 43px;
+                        color: #000;
+                        font-family: "Acrom";
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+    .sixteen-second-article__list__item:nth-of-type(5) {
+        width: 137px;
+    }
+}
+
+

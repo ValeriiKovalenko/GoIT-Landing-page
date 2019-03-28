@@ -5,6 +5,7 @@
     justify-content: center;
     flex-flow: column;
     margin: 0 auto;
+    line-height: normal;
 }
 /*div*/
 .section7__main_content{
@@ -38,7 +39,6 @@
     position: relative;
     font-family: 'Acrom Medium';
     font-size: 13.5px;  
-    line-height: 13.25px;  
     margin-bottom: 36px;
     padding-left: 40px;
 }
@@ -76,7 +76,6 @@
 .section7__bold_font{
     font-family: 'Acrom Bold';
     font-size: 13.5px;
-    line-height: 13.5px;
     width: 358px;
     margin-bottom: 16px;
 }

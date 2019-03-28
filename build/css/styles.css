@@ -714,6 +714,7 @@ template {
   align-content: center;
   margin: 0 auto;
   max-width: 410px;
+  padding-left: 20px;
 }
 
 .article1_h2 {

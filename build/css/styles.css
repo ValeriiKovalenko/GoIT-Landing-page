@@ -608,7 +608,7 @@ img {
     padding: 49px 65px 0;
     transition: padding 0.3s linear;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
   }
 
   .section11-first-wrapper {
@@ -663,6 +663,14 @@ img {
     width: 27px;
     left: -46px;
     top: 3px;
+  }
+
+  .section11-second-wrapper {
+    margin: 0;
+  }
+
+  .section11-third-wrapper {
+    margin: 0;
   }
 }
 

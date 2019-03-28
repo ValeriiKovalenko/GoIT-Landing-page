@@ -575,6 +575,7 @@ template {
     font-weight: bold;
     margin: 0;
     padding-bottom: 20px;
+    width: 290px;
   }
 
   .image_desctop {
@@ -596,6 +597,7 @@ template {
     position: absolute;
     margin: 0;
     top: -40px;
+    left: 2px;
     width: 7px;
     height: 7px;
   }

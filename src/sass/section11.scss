@@ -30,15 +30,18 @@ img {
   margin: 0 auto 18px;
   font-size: 0.8438rem;
   line-height: 1.444;
+  transition: font-size 0.3s linear, margin 0.3s linear, width 0.3s linear;
 }
 
 .online-univrese__p1 {
   text-transform: uppercase;
   font-weight: 900;
   margin-bottom: 8px;
+  transition: font-size 0.3s linear, margin 0.3s linear;
 }
 
 .online-universe__p2 {
+  transition: font-size 0.3s linear;
 }
 
 .section2-img__wrapper {
@@ -53,6 +56,7 @@ img {
   position: relative;
   width: 290px;
   margin: 0 auto;
+  transition: font-size 0.3s linear, margin 0.3s linear, width 0.3s linear;
   &:before {
     content: "";
     height: 3px;
@@ -78,6 +82,7 @@ img {
   font-weight: 500;
   display: inline-block;
   margin-bottom: 33px;
+  transition: font-size 0.3s linear;
 }
 
 .second-wrapper_h4 {
@@ -88,6 +93,7 @@ img {
   margin-bottom: 6px;
   width: 200px;
   position: relative;
+  transition: font-size 0.3s linear, margin 0.3s linear, width 0.3s linear;
   &:after {
     content: "";
     width: 80px;
@@ -102,6 +108,7 @@ img {
 .second-wrapper_p {
   font-size: 0.8438rem;
   line-height: 1.444;
+  transition: font-size 0.3s linear;
 }
 
 .section11-third-wrapper {
@@ -117,6 +124,7 @@ img {
   list-style: none;
   line-height: 1.444;
   font-size: 0.8438rem;
+  transition: font-size 0.3s linear;
 }
 
 .third-wrapper_li {
@@ -141,7 +149,6 @@ img {
   margin-bottom: 6px;
   position: relative;
   &::after {
-    content: "01_";
     position: absolute;
     right: -52px;
     top: -4px;
@@ -149,13 +156,33 @@ img {
     transform: rotate(-90deg);
     opacity: 0.05;
     font-weight: 900;
+    transition: font-size 0.3s linear;
   }
 }
 
+.third-h3_01::after {
+  content: "01_";
+}
+
+.third-h3_02::after {
+  content: "02_";
+}
+
+.third-h3_03::after {
+  content: "03_";
+}
+.third-wrapper_li-p {
+  transition: font-size 0.3s linear;
+}
+
+.third-wrapper_li-span {
+  transition: font-size 0.3s linear;
+}
 
 .third-wrapper_li-span {
   display: block;
   font-weight: 700;
+  transition: font-size 0.3s linear;
 }
 
 .third-wrapper_img {
@@ -181,6 +208,7 @@ img {
   .section11-first-wrapper {
     display: flex;
     flex-flow: column wrap;
+    align-content: space-between;
     height: 230px;
     width: 100%;
     margin-bottom: 60px;
@@ -194,14 +222,16 @@ img {
     line-height: 1.26;
     order: 1;
   }
-
+  .online-universe_wrapper {
+    order: 3;
+    width: 344px;
+  }
   .online-universe {
     margin: 0;
     font-size: 0.5606rem;
     display: flex;
-    order: 3;
     justify-content: space-around;
-    margin: 6px auto 15px;
+    margin: 5px auto 26px;
   }
 
   .online-univrese__p1 {
@@ -217,7 +247,6 @@ img {
 
   .section2-img__wrapper {
     margin: 0;
-    order: 4;
   }
 
   .universe_with_tea {
@@ -302,5 +331,73 @@ img {
     width: 61px;
     height: 83px;
     object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section11 {
+    padding: 56px 245px 0;
+  }
+
+  .section11-first-wrapper {
+    height: 261px;
+  }
+  .section11-h3 {
+    font-size: 1.875rem;
+    line-height: 1.25;
+    margin: 0 0 26px;
+  }
+
+  .universe_with_tea {
+    font-size: 0.625rem;
+    line-height: 1.5;
+    width: 175px;
+    margin: 0 0 0 51px;
+    &::before {
+      left: -52px;
+      top: 6px;
+      width: 32px;
+    }
+  }
+
+  .online-universe_wrapper {
+    width: 380px;
+  }
+
+  .online-univrese__p1 {
+    font-size: 0.625rem;
+    line-height: 1.625;
+    width: 103px;
+  }
+
+  .online-universe__p2 {
+    font-size: 0.5469rem;
+    line-height: 1.5;
+    width: 131px;
+  }
+
+  .section11-second-wrapper {
+    margin: 0 44px 0 0;
+  }
+
+  .second-wrapper_span,
+  .third-wrapper_span {
+    font-size: 0.625rem;
+    line-height: 1.313;
+    margin-bottom: 28px;
+  }
+
+  .second-wrapper_h4,
+  .third-wrapper_h4 {
+    font-size: 0.625rem;
+    line-height: 1.5;
+  }
+
+  .third-wrapper_h4 {
+    width: 61px;
+  }
+
+  .third-wrapper_li:not(:nth-last-of-type(1)) {
+    margin-right: 44px;
   }
 }

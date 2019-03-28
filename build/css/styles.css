@@ -435,6 +435,12 @@ template {
   width: 30px;
   height: 20px;
   cursor: pointer;
+  transition: .2s linear;
+}
+
+.first-section-header__button.active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .first-section__header {
@@ -450,6 +456,7 @@ template {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  z-index: 1995;
 }
 
 .first-section {
@@ -578,19 +585,22 @@ template {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  left: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   top: 20px;
   visibility: hidden;
   opacity: 0;
   z-index: 111;
   background: rgba(12, 21, 32, 0.9);
   transition: .5s ease-in-out;
+  max-width: 480px;
 }
 
 .navigation.active {
   height: calc(100vh - 57px);
   opacity: 1;
-  top: 57px;
+  top: 56px;
   visibility: visible;
 }
 
@@ -907,6 +917,7 @@ template {
   line-height: 1.444;
 }
 
+<<<<<<< HEAD
 .real-facts {
   margin: 0 auto;
   max-width: 480px;
@@ -916,6 +927,15 @@ template {
   flex-wrap: wrap;
   align-content: center;
   padding-top: 20px;
+=======
+  .first-sectiion-footer__facebook {
+    padding-right: 15px;
+  }
+
+  .navigation {
+    max-width: 768px;
+  }
+>>>>>>> Kovalenko
 }
 
 .real-facts__article1 {
@@ -4356,6 +4376,14 @@ template {
     font-weight: 500;
     line-height: 15px;
   }
+<<<<<<< HEAD
+=======
+
+  .navigation {
+    max-width: 1200px;
+  }
+}
+>>>>>>> Kovalenko
 
   .section4__text-one::before {
     content: "";

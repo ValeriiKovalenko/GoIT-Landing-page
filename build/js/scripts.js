@@ -9,5 +9,9 @@
       navigation.classList.toggle('active');
     });
     console.log('button', button);
+    navigation.addEventListener('click', function () {
+      button.classList.remove('active');
+      navigation.classList.remove('active');
+    });
   }
 })();

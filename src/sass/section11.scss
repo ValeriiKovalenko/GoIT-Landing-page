@@ -1,0 +1,94 @@
+.section11 {
+  padding: 37px 16px 0;
+  font-size: 16px;
+  font-family: "Acrom", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section11-first-wrapper {
+  margin-bottom: 34px;
+}
+
+.section11-h3 {
+  font-size: 1.125rem;
+  font-weight: 900;
+  padding-left: 50px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  line-height: 1.333;
+}
+
+.online-universe {
+  width: 268px;
+  margin: 0 auto;
+  font-size: 0.8438rem;
+  line-height: 1.444;
+  margin-bottom: 20px;
+}
+
+.online-univrese__p1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.online-universe__p2 {
+}
+
+.section2-img__wrapper {
+  display: block;
+  margin-bottom: 59px;
+}
+
+.universe_with_tea {
+  padding-left: 118px;
+  padding-right: 50px;
+  font-size: 0.8438rem;
+  line-height: 1.444;
+  position: relative;
+  &:before {
+    content: "";
+    height: 3px;
+    width: 20px;
+    background-color: #000;
+    position: absolute;
+    left: 92px;
+    top: 9px;
+  }
+}
+
+.section11-second-wrapper {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+
+.second-wrapper_span {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.7719rem;
+  font-weight: 500;
+  margin-left: 19px;
+  display: inline-block;
+  margin-bottom: 33px;
+}
+
+.second-wrapper_h4 {
+  font-size: 0.8438rem;
+  line-height: 1.444;
+  font-weight: 700;
+  margin-left: 16px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.second-wrapper_p {
+  margin-left: 16px;
+  font-size: 0.8438rem;
+  line-height: 1.444;
+}

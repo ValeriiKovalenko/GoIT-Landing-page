@@ -421,6 +421,7 @@ template {
   padding: 37px 16px 0;
   font-size: 16px;
   font-family: "Acrom", sans-serif;
+  transition: padding 0.3s linear;
 }
 
 img {
@@ -440,6 +441,7 @@ img {
   margin-bottom: 18px;
   text-transform: uppercase;
   line-height: 1.333;
+  transition: font-size 0.3s linear;
 }
 
 .online-universe {
@@ -461,11 +463,12 @@ img {
 }
 
 .universe_with_tea {
-  padding-left: 106px;
-  padding-right: 50px;
+  padding-left: 26px;
   font-size: 0.8438rem;
   line-height: 1.444;
   position: relative;
+  width: 290px;
+  margin: 0 auto;
 }
 
 .universe_with_tea:before {
@@ -474,7 +477,7 @@ img {
   width: 20px;
   background-color: #000;
   position: absolute;
-  left: 80px;
+  left: 0px;
   top: 9px;
 }
 
@@ -598,6 +601,69 @@ img {
 .container {
   max-width: 480px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section11 {
+    padding: 49px 65px 0;
+    transition: padding 0.3s linear;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .section11-first-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    height: 230px;
+  }
+
+  .section11-h3 {
+    width: 238px;
+    padding-left: 0;
+    font-size: 1.6875rem;
+    margin: 0 0 23px;
+    line-height: 1.26;
+    order: 1;
+  }
+
+  .online-universe {
+    margin: 0;
+    font-size: 0.5606rem;
+    display: flex;
+    order: 3;
+    justify-content: space-around;
+    margin: 6px auto 15px;
+  }
+
+  .online-univrese__p1 {
+    font-size: 0.5606rem;
+    margin: 0;
+    width: 93px;
+  }
+
+  .online-universe__p2 {
+    font-size: 0.4906rem;
+    width: 118px;
+  }
+
+  .section2-img__wrapper {
+    margin: 0;
+    order: 4;
+  }
+
+  .universe_with_tea {
+    font-size: 0.5606rem;
+    margin: 0 0 0 46px;
+    padding: 0;
+    order: 2;
+    width: 154px;
+  }
+
+  .universe_with_tea:before {
+    width: 27px;
+    left: -46px;
+    top: 3px;
+  }
 }
 
 @media (min-width: 768px) {

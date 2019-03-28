@@ -267,6 +267,7 @@
         justify-content: space-between;
         &__textbox{
             max-width: 334px;
+            height: 135px;
             display: flex;
             flex-flow: row wrap;
             margin-top: 44px;
@@ -315,9 +316,12 @@
     .sixteen-second-article{
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
         max-width: 750px;
 
         &__header{
+            margin: 0;
+            margin-left: 94px;
             font-size: 11px;
             line-height: 15px;
             max-width: 118px;
@@ -327,10 +331,10 @@
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
-            max-width: 471px;
+            max-width: 476px;
 
             &__item{
-                margin-bottom: 18px;
+                margin-bottom: 18px;   
                 margin-left: 0;
                 max-width: 152px;
             }
@@ -346,6 +350,7 @@
             }
             &__textbox{
                 max-width: 134px;
+                margin: 0;
             }
             &__sign{
                 font-size: 9px;
@@ -359,10 +364,15 @@
             }
             &__price{
                 width: 167px;
+                margin: 0;
                 &__wrapper{
                     width: 76px;
                     margin-top: 26px;
                     margin-left: 0;
+                }
+                &__pricebox{
+                    max-width: 78px;
+                    margin-top: 15px;
                 }
                 &__span{
                     font-size: 9px;
@@ -373,16 +383,23 @@
                     display: block;
                 }
                 &__costnone{
+                    display: inline;
                     font-size: 10px;
                     line-height: 10px;
                     &__grn{
+                        font-size: 10px;
+                        display: inline;
                         text-transform: lowercase;
+                        color: #3c3b40;
+                        font-family: "Acrom";
                     }
                 }
                 &__cost{
+                    display: inline;
                     font-size: 17px;
                     line-height: 20px;
                     &__grn{
+                        display: inline;
                         font-size: 15px;
                         line-height: 43px;
                         color: #000;
@@ -392,6 +409,9 @@
                 }
             }
         }
+    }
+    .sixteen-second-article__list__item:nth-of-type(5) {
+        width: 140px;
     }   
 }
 

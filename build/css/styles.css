@@ -720,6 +720,7 @@ template {
 
   .sixteen-first-article__textbox {
     max-width: 334px;
+    height: 135px;
     display: flex;
     flex-flow: row wrap;
     margin-top: 44px;
@@ -771,10 +772,13 @@ template {
   .sixteen-second-article {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     max-width: 750px;
   }
 
   .sixteen-second-article__header {
+    margin: 0;
+    margin-left: 94px;
     font-size: 11px;
     line-height: 15px;
     max-width: 118px;
@@ -785,7 +789,7 @@ template {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    max-width: 471px;
+    max-width: 476px;
   }
 
   .sixteen-second-article__list__item {
@@ -808,6 +812,7 @@ template {
 
   .sixteen-second-article__list__textbox {
     max-width: 134px;
+    margin: 0;
   }
 
   .sixteen-second-article__list__sign {
@@ -824,12 +829,18 @@ template {
 
   .sixteen-second-article__list__price {
     width: 167px;
+    margin: 0;
   }
 
   .sixteen-second-article__list__price__wrapper {
     width: 76px;
     margin-top: 26px;
     margin-left: 0;
+  }
+
+  .sixteen-second-article__list__price__pricebox {
+    max-width: 78px;
+    margin-top: 15px;
   }
 
   .sixteen-second-article__list__price__span {
@@ -842,25 +853,36 @@ template {
   }
 
   .sixteen-second-article__list__price__costnone {
+    display: inline;
     font-size: 10px;
     line-height: 10px;
   }
 
   .sixteen-second-article__list__price__costnone__grn {
+    font-size: 10px;
+    display: inline;
     text-transform: lowercase;
+    color: #3c3b40;
+    font-family: "Acrom";
   }
 
   .sixteen-second-article__list__price__cost {
+    display: inline;
     font-size: 17px;
     line-height: 20px;
   }
 
   .sixteen-second-article__list__price__cost__grn {
+    display: inline;
     font-size: 15px;
     line-height: 43px;
     color: #000;
     font-family: "Acrom";
     font-weight: 900;
+  }
+
+  .sixteen-second-article__list__item:nth-of-type(5) {
+    width: 140px;
   }
 
   .container {

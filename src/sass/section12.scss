@@ -1,94 +1,181 @@
-.section12 {display:block;
-    margin:0 auto;
-max-width:293px;}
+.section12 {
+    display: block;
+    margin: 0 auto;
+    max-width: 293px;
+}
 
-.section1__article {position:relative;
+.section1__article {
+    position: relative;
 }
 
 .head__article {
     text-transform: uppercase;
     font-size: 18.74px;
-    font-family:'Acrom';
+    font-family: 'Acrom';
     font-weight: bold;
-    margin:46px auto;
-    margin-top:60px;
-    
+    margin: 46px auto;
+    margin-top: 60px;
 }
 
 .description__article {
     font-size: 13.5px;
     font-weight: bold;
-    margin-bottom:46px;
+    margin-bottom: 46px;
     font-family: 'Acrom';
     font-weight: 500;
-    margin-bottom:47px;
+    margin-bottom: 47px;
+    padding-left: 22px;
 }
+
 .description__article::before {
-    content:"";
+    content: "";
     border: solid 1px;
-    background-color:black;
-    display:block;
-    position:absolute;
+    background-color: black;
+    display: block;
+    position: absolute;
     width: 10px;
-    top: 58%;
-    left: -16px;
+    top: 75px;
+    left: 0px;;
 
 }
 
 .indicated__description {
-    background-color:#16ebfe;
+    background-color: #16ebfe;
 }
 
 .image__article {
-    margin-bottom:37px;
-   
-    margin-bottom:40px;
-
+    margin-bottom: 37px;
+    margin-bottom: 40px;
 }
 
+.list__item {
+    text-transform: uppercase;
+    font-size: 13.5px;
+    margin-bottom: 31px;
+}
 
-.list__item { text-transform: uppercase;
-font-size:13.5px;
-margin-bottom:31px;}
-
-.main__article {font-size:13.5px;
-    margin-bottom:14px;position:relative;
+.main__article {
+    font-size: 13.5px;
+    margin-bottom: 14px;
+    position: relative;
     font-family: 'Acrom';
     font-weight: 800;
     margin-left: 11px;
-    
 }
 
-.decoration__article {position:relative;}
+.decoration__article {
+    position: relative;
+}
 
 .decoration__article::after {
-    content:"+";
-    color:black;
-    position:absolute;
+    content: "+";
+    color: black;
+    position: absolute;
     top: -10%;
     left: 7px;
 }
 
-
 .main__article::before {
-    content:"";
-    border:2px;
-    background-color:black;
-    width:7px;
-    height:7px;
+    content: "";
+    border: 2px;
+    background-color: black;
+    width: 7px;
+    height: 7px;
     position: absolute;
     top: 3px;
     left: -15px;
-}    
+}
 
-.list__article {list-style-type:none;
-    padding-left: 15px;}
+.list__article {
+    list-style-type: none;
+    padding-left: 15px;
+}
 
-.list__description {font-size:13.5px;
-color:#3f4144;
-font-family: 'Acrom';
-font-weight: normal;
+.list__description {
+    font-size: 13.5px;
+    color: #3f4144;
+    font-family: 'Acrom';
+    font-weight: normal;
+    text-transform: none;
+}
 
-text-transform: none;}
+.decoration-text {text-transform: uppercase;}
+
+@media screen and (min-width: 768px) {
+    .section12 {
+        max-width: 620px;
+        height: 310px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        margin: 0 auto;
+    }
+
+    .section1__article {
+        order: 2;
+        width:240px;
+        height:130px;
+    }
+    
+    .section2__article {
+        order: 1;
+        width:330px;
+        height:310px;
+        margin: 0;
+    }
+
+    .image__article{
+        width: 330px;
+        height: 310px;
+        margin: 0;
+    }
+    .section3__article {
+        order: 3;
+        width:240px;
+        height:170px;
+    }
+    .list__item{
+        margin: 0;
+    }
+    .main__article{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .list__description{
+        margin-bottom: 24px;
+    }
+    .head__article {
+        font-size:27px;
+        width: 204px;
+        height: 60px;
+        margin: 0;
+        margin-bottom: 22px;
+    }
+
+    .description__article {
+        font-size:9px;
+        width: 240px;
+        height: 50px;
+    }
+
+    .main__article {font-size:8.97px;}
+
+    .list__description {font-size:7.85px;}
+
+    .description__article::before {
+        top: 85px;
+        
+    }
+
+    .decoration__article::after {left:5px;}
+
+
+
+
+
+
+}
+
+
 
 

@@ -585,9 +585,9 @@ template {
   border-width: 0 0 2px;
   border-color: #bfbfbf;
   font-family: Acrom;
-  color: #000;
+  color: #16ebfe;
   font-size: 9px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 0.9;
   padding: 0;
 }
@@ -641,6 +641,7 @@ template {
   }
 
   .section17__title {
+    display: inline-block;
     margin: 0 auto;
     margin-left: 40px;
     text-align: left;
@@ -720,6 +721,8 @@ template {
   }
 
   .form__style {
+    padding: 50px 55px;
+    margin: 0 auto;
     width: 313px;
     height: 293px;
   }
@@ -727,11 +730,14 @@ template {
   .form__name,
   .form__phone,
   .form__email {
-    padding: 30px 55px;
     width: 203px;
     height: 30px;
     padding-left: 20px;
     padding: 0;
+  }
+
+  .form__button {
+    width: 147px;
   }
 
   .container {

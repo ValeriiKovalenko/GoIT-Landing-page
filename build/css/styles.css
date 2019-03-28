@@ -585,7 +585,9 @@ template {
   .get_it {
     max-width: 768px;
     flex-direction: row;
-    margin: 0;
+    margin: 0 auto;
+    padding-top: 63px;
+    padding-bottom: 44px;
   }
 
   .get_it__div1 {
@@ -686,6 +688,17 @@ template {
   .real-facts__article1 {
     max-width: 210px;
     margin: 0;
+  }
+
+  .get_it__div2 {
+    padding-right: 40px;
+  }
+
+  .get_it_h2 {
+    font-size: 30px;
+    line-height: 38px;
+    min-width: 337px;
+    padding: 0;
   }
 
   .container {

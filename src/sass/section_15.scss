@@ -31,7 +31,9 @@
     .get_it {
         max-width: 768px;
         flex-direction: row;
-        margin: 0;
+        margin: 0 auto;
+        padding-top: 63px;
+        padding-bottom: 44px;
     }
 }
 
@@ -41,6 +43,7 @@
         padding-top: 30px;
     }
 }
+
 
 @media (min-width: 1200px) {
     .real-facts__article1 {
@@ -53,6 +56,12 @@
     .get_it__div2 {
         display: block;
         padding-right: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .get_it__div2  {
+        padding-right: 40px;
     }
 }
 
@@ -78,6 +87,14 @@
         line-height: 34px;
     }
 }
+@media (min-width: 1200px) {
+    .get_it_h2 {
+        font-size: 30px;
+        line-height: 38px;
+        min-width: 337px;
+        padding: 0;
+    }
+ }
 
 .get_it_ul {
     list-style: none;
@@ -245,6 +262,7 @@
     font-size: 30px;
     color: #000000;
 }
+
 @media (min-width: 768px) {
     .get_it_span {
         position: absolute;

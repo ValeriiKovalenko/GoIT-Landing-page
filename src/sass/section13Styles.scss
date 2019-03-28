@@ -67,7 +67,7 @@
 
 /*TABLET*/
 @media screen and (min-width:768px){
-    /*articles*/
+    /*article*/
     .section13__point{
         display: flex;
         justify-content: space-between;
@@ -125,8 +125,56 @@
 
 /*DESKTOP*/
 @media screen and (min-width:1200px){
-    /*articles*/
-    .section7__point{
-
+    /*article*/
+    .section13__point{
+        width: 714px;
+        height: 185px;
+        margin:0 auto;
+    }
+    /*div*/
+    .section13__main_content{
+        margin: 0;
+    }
+    /*h3*/
+    .section13__section_title{
+        width: 268px;
+        font-size: 30px;
+    }
+    /*p & psevdo*/
+    .section13__medium_font::before{
+        width: 34px;
+    }
+    .section13__medium_font{
+        font-size: 10px; 
+        width: 190px;
+        margin: 0;
+    }
+    /*picture*/
+    .section13__mans_image{
+        margin: 0;
+    }
+    .mans{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        width: 202px;
+        height: 176px;
+        padding-top: 4px;
+    }
+    /*div*/
+    .section13_p{
+        width: 165px;
+    }
+    /*p*/
+    .section13__bold_font{
+        font-size: 10px;
+        width: 116px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    /*p*/
+    .section13__content{
+        font-size: 8.75px;
+        width: 140px;
     }
 }

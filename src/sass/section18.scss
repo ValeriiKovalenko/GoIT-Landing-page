@@ -1,0 +1,287 @@
+.courses-price{
+    font-family: 'Acrom';
+    max-width: 480px;
+    margin: 0px auto;
+    padding: 30px 0px 30px;
+}
+.important-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.price{
+    height: 274px;
+    width: 371px;
+    background-color: #052139;
+    margin: 0 auto;
+    color:white;
+    font-weight: 400;
+    position: relative;
+    
+}
+.price-video-cource{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+.price-name{
+    width: 116px;
+    font-size: 13px;
+}
+.price-uah{
+    font-size: 14.5px;
+    text-transform: uppercase;
+    line-height: 40px;
+       &:before{
+           content:'';
+           width:35px;
+           height: 1px;
+           display: inline-block;
+           background-color: white;
+           margin-bottom: 3px;
+           margin-right: 10px;
+       }
+}
+
+.price-actualy{
+    display: flex;
+    justify-content: center;
+    padding-top: 42px;
+    padding-left: 70px;
+    flex-direction: column;
+}
+
+.price-today_hover{
+    background-color: #16ebfe;
+    width: 90px;
+    font-size: 13px;
+}
+.price-today{
+    font-size: 13px;
+}
+.price-actualy-today{
+    position: absolute;
+    top: 155px;
+    left: 189px;
+    font-size: 39px;
+    font-weight: 400;
+}
+.price-actualy-today_uah{
+    font-size: 13px;
+    font-weight: 400;
+}
+.our-gift_first{
+    font-size: 14.5px;
+    font-weight: 400;
+    width: 282px;
+    padding-top: 45px;
+    margin: 0 auto;
+}
+.our-gift_it{
+    font-size: 12.5px;
+    padding-top: 16px;
+    width: 282px;
+    margin: 0 auto;
+}
+.our-gift_copy{
+    font-size: 14.5px;
+    font-weight: 400;
+    width: 300px;
+    line-height: 25px;
+    color:#ff6b08;
+    margin: 0 auto;
+    padding-top: 34px;
+      
+}
+
+.our-gift_mark{
+    font-size: 40px;
+    position: absolute;
+    top: 175px;
+    
+}
+.our-gift{
+    position: relative;
+    width: 370px;
+    margin: 0px auto;
+}
+.our-gift_btn{
+    width: 295px;
+    height: 40px;
+    background-color: #ff6b08;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+    border-color: transparent;
+    display: block;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    line-height: 40px;
+    cursor: pointer;
+      &:hover{
+        box-shadow: 0px 4px 5px #ff6b0882;
+        transition: 300ms ease;
+    
+      }
+}
+
+@media (min-width :768px){
+    .ourses-price{
+        margin: 0px auto;
+
+    }
+    .test{
+        display: flex;
+    }
+    .price{
+    position: absolute;
+    width: 257px;
+    height: 190px;
+    top: 50px;
+    margin-left: 70px;
+    
+    }
+    .courses-price{
+        position: relative;
+    }
+    .courses-price{
+        max-width: 768px;
+    }
+    .our-gift{
+        margin: 0px;
+        margin-left: auto;
+    }
+    .important-text{
+        font-size: 27px;
+        text-align: right;
+        padding-right: 108px;
+        
+    }
+    .price-name{
+        font-size: 9px;
+        width: 55px;
+    }
+    .price-uah:before{
+        width: 25px;
+    }
+    .price-uah{
+        font-size: 10px;
+    }
+    .price-today{
+        font-size: 9px;
+        width: 30px;
+        background-color: #16ebfe;
+        margin-bottom :2px;
+    }
+    .price-today_hover{
+        font-size: 9px;
+        width: 45px;
+    }
+    .price-actualy-today{
+        font-size: 27px;
+        top: 114px;
+        left: 123px;
+    }
+    .price-actualy-today_uah{
+        font-size: 9px;
+    }
+    .price-video-cource{
+        padding-top: 57px;
+    }
+    .price-actualy{
+        padding-top: 22px;
+        padding-left: 59px;
+    }
+    .our-gift_first{
+        font-size: 9px;
+        width: 144px;
+        padding-top: 0px;
+    }
+    .our-gift_it{
+        font-size: 8px;
+        width: 144px;
+        padding-top: 12px;
+    }
+    .our-gift_copy{
+        font-size: 9px;
+        width: 144px;
+        line-height: 10px;
+        padding-top: 12px;
+    }
+    .our-gift_btn{
+        margin: 21px auto;
+        width: 200px;
+        height: 27px;
+        font-size: 7px;
+        line-height: 2px;
+    }
+    .our-gift_mark{
+        font-size: 20px;
+        top: 80px;
+        left: 90px;
+    }
+}
+@media (min-width :1200px){
+    .price-name{
+        font-size: 10px;
+        width: 60px;
+    }
+    .price-uah:before {
+        width: 28px;
+    }
+    .price-uah {
+        font-size: 11.2px;
+    }
+    .price-today {
+        font-size: 10px;
+        width: 33px;
+    }
+    .price-today_hover {
+        font-size: 10px;
+        width: 51px;
+    }
+    .price-actualy-today {
+        font-size: 30px;
+        top: 105px;
+        left: 122px;
+    }
+    .price-actualy-today_uah {
+        font-size: 10px;
+    }
+    .price-actualy {
+        padding-top: 17px;
+        padding-left: 53px;
+    }
+    .important-text {
+        font-size: 30px;
+    }
+    .our-gift_first {
+        font-size: 10px;
+        width: 155px;
+    }
+    .gift_it {
+        font-size: 9px;
+        width: 155px;
+    }
+    .our-gift_copy {
+        font-size: 10px;
+        width: 155px;
+    }
+    .our-gift_btn {
+        margin: 21px auto;
+        width: 225px;
+        height: 31px;
+        font-size: 7.5px;
+        line-height: 2px;
+    }
+    .price-video-cource {
+        padding-top: 50px;
+    }
+    .our-gift_mark {
+        top: 85px;
+    }
+}

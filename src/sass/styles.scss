@@ -4,28 +4,29 @@
 
 
 
-   
-   
-   
-   $orange : #ff6b08;
-   $aqua : #16ebfe;
-   
-   
-   
-   
-   
-   
-   
-   @import './normalize';
-   @import './fonts.scss';
-   @import './section1Style.scss';
-   @import "./section2";
-   @import './section_3.scss';
-   @import './section4.scss';
-   @import'./section5.scss';
-   @import "./section-6.scss";
-   @import './section9.scss';
-   @import './footer';
+
+
+
+$orange : #ff6b08;
+$aqua : #16ebfe;
+
+
+
+
+
+
+
+@import './normalize';
+@import './fonts.scss';
+@import './section1Style.scss';
+@import "./section2";
+@import './section_3.scss';
+@import './section4.scss';
+@import'./section5.scss';
+@import "./section-6.scss";
+@import './section9.scss';
+@import'./section18';
+@import './footer';
 
 
 

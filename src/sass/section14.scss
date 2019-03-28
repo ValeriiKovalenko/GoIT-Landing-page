@@ -1,3 +1,112 @@
-h1{
-    color:red;
+.just_only{
+    max-width: 480px;
+    margin: 0 auto;
+    padding:20px 0px;
+}
+.just_now{
+    background-image: url(../images/it@2x-min.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    background-position: right;
+    background-size: contain;
+    margin: 0px auto;
+    position: relative;
+}
+.just_now-shadov{
+    width: 330px;
+    position: absolute;
+    top: 160px;
+    left: -26px;
+}
+.just_now-man{
+    top: 0px;
+    position: absolute;
+    height: 259px;
+}
+.just{
+    font-family: 'Acrom';
+    font-weight: 400;
+    
+}
+.just_text-contain{
+    width: 292px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 45px;
+}
+.just_text-item{
+    font-size: 13.5px;
+    color:#ff6b08;
+    width: 264px;
+    margin: 0 auto;
+    
+}
+.just_text-mark{
+    display: inline-block;
+    position: absolute;
+}
+.just_text-main{
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 290px;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-left: 5px;
+}
+.just_web{
+    width: 292px;
+    margin: 0px auto;
+    position: relative;
+}
+.just_text-study{
+    font-size: 13.5px;
+    width: 205px;
+    margin: 0px auto;
+    margin-top: 25px;  
+}
+.just_web-mark{
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 1px;
+}
+.bay_product-text{
+    margin-top: 55px;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    width: 293px;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+.advantages{
+    list-style: none;
+    font-size: 13.5px;
+}
+.advantages_items{
+    display: flex;
+    width: 245px;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+.advantages_item{
+    writing-mode:tb-rl;
+    background-color: #ff6b08;
+    color:white;
+    font-size: 13.5px;
+    padding: 5px 0px;
+    
+}
+.advantages_items-par{
+    margin-left: 13px;
+    margin-bottom: 15px;
+}
+.advantages_item-text{
+    margin-left: 13px;
+
 }

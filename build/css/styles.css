@@ -376,42 +376,42 @@ template {
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: "Acrom";
   src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
@@ -436,18 +436,17 @@ img {
 .section11-h3 {
   font-size: 1.125rem;
   font-weight: 900;
-  padding-left: 50px;
+  padding-left: 39px;
   margin-bottom: 18px;
   text-transform: uppercase;
   line-height: 1.333;
 }
 
 .online-universe {
-  width: 268px;
-  margin: 0 auto;
+  width: 290px;
+  margin: 0 auto 18px;
   font-size: 0.8438rem;
   line-height: 1.444;
-  margin-bottom: 20px;
 }
 
 .online-univrese__p1 {
@@ -462,7 +461,7 @@ img {
 }
 
 .universe_with_tea {
-  padding-left: 118px;
+  padding-left: 106px;
   padding-right: 50px;
   font-size: 0.8438rem;
   line-height: 1.444;
@@ -475,22 +474,22 @@ img {
   width: 20px;
   background-color: #000;
   position: absolute;
-  left: 92px;
+  left: 80px;
   top: 9px;
 }
 
 .section11-second-wrapper {
   width: 300px;
   margin: 0 auto;
-  margin-bottom: 26px;
+  margin-bottom: 42px;
 }
 
-.second-wrapper_span {
+.second-wrapper_span,
+.third-wrapper_span {
   background-color: #000;
   color: #fff;
   font-size: 0.7719rem;
   font-weight: 500;
-  margin-left: 19px;
   display: inline-block;
   margin-bottom: 33px;
 }
@@ -499,15 +498,95 @@ img {
   font-size: 0.8438rem;
   line-height: 1.444;
   font-weight: 700;
-  margin-left: 16px;
   text-transform: uppercase;
   margin-bottom: 6px;
+  width: 200px;
+  position: relative;
+}
+
+.second-wrapper_h4:after {
+  content: "";
+  width: 80px;
+  height: 68px;
+  position: absolute;
+  background-image: url(../images/section11-map.png);
+  top: -46px;
+  right: -98px;
 }
 
 .second-wrapper_p {
-  margin-left: 16px;
   font-size: 0.8438rem;
   line-height: 1.444;
+}
+
+.section11-third-wrapper {
+  width: 293px;
+  margin: 0 auto;
+}
+
+.third-wrapper_span {
+  margin-bottom: 28px;
+}
+
+.third-wrapper_ul {
+  list-style: none;
+  line-height: 1.444;
+  font-size: 0.8438rem;
+}
+
+.third-wrapper_li {
+  display: flex;
+}
+
+.third-wrapper_li:nth-of-type(1) {
+  margin-bottom: 22px;
+}
+
+.third-wrapper_li:nth-of-type(2) {
+  margin-bottom: 39px;
+}
+
+.third-li_wrapper {
+  width: 252px;
+}
+
+.third-wrapper_h4 {
+  width: 170px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.third-wrapper_h4::after {
+  content: "01_";
+  position: absolute;
+  right: -52px;
+  top: -4px;
+  font-size: 2.4131rem;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  opacity: 0.05;
+  font-weight: 900;
+}
+
+.third-wrapper_li-span {
+  display: block;
+  font-weight: 700;
+}
+
+.third-wrapper_img {
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section11_item1 {
+  width: 45px;
+}
+
+.section11_item2 {
+  width: 75px;
+  height: 114px;
 }
 
 * {

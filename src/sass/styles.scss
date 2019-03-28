@@ -1,43 +1,33 @@
 /*
    Import partials below
 */
-$orange : #ff6b08;
-$aqua : #16ebfe;
+$orange: #ff6b08;
+$aqua: #16ebfe;
 
-@import './normalize';
-@import './fonts.scss';
-@import './section11.scss';
-
-
-
-
-
-
-
-
+@import "./normalize";
+@import "./fonts.scss";
+@import "./section11.scss";
 
 // Default settings
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
 .container {
-   max-width: 480px ;
-   margin: 0 auto;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-   .container {
-      max-width: 768px;
-      
-   }
+  .container {
+    max-width: 768px;
+  }
 }
 @media (min-width: 1200px) {
-   .container {
-      max-width: 1200px;
-   }
+  .container {
+    max-width: 1200px;
+  }
 }

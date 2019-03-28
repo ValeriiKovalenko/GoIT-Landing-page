@@ -56,7 +56,7 @@
 
 @media (min-width: 768px) {
     .operate_pay__div2 {
-        min-width: 316px;
+        min-width: 340px;
         margin: 0;
         padding: 0;
         padding-left: 17px;
@@ -80,6 +80,13 @@
     }
 }
 
+
+@media (min-width: 1200px) {
+    .operate_div1_block {
+        min-width: 340px;
+        
+    }
+}
 
 .operate_pay__div1::before {
     content: "GO";
@@ -113,7 +120,7 @@
         transform: rotate(90deg);
         z-index: 1;
         right: -70px;
-        bottom: 60px;
+        bottom: 48px;
 
     }
 }
@@ -133,12 +140,17 @@
     .operate_div1_h3 {
         max-width: 283px;
         font-size: 27px;
-        line-height: 34px;
-        color: #000000;
-        font-family: "Acrom";
-           
+        line-height: 34px;      
     }
 }
+
+@media (min-width: 1200px) {
+    .operate_div1_h3 {
+        max-width: 315px;
+        font-size: 30px;
+        line-height: 38px;     
+    }
+ }
 
 .operate_div1_p {
     position: relative;

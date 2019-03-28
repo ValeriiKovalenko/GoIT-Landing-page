@@ -430,7 +430,7 @@ template {
   color: #000000;
   font-family: "Acrom";
   font-weight: 800;
-  padding-left: 120px;
+  padding-left: 80px;
 }
 
 .text_content {
@@ -444,7 +444,7 @@ template {
 
 .headline8 {
   padding-bottom: 30px;
-  margin-left: 55px;
+  margin-left: 70px;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -452,6 +452,7 @@ template {
   font-weight: bold;
   padding: 0;
   margin-bottom: 15px;
+  width: 181px;
 }
 
 .content_right {
@@ -467,7 +468,7 @@ template {
 }
 
 .image_desctop {
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 .image_man {
@@ -475,6 +476,10 @@ template {
   margin-right: 20px;
   width: 445px;
   height: 200px;
+}
+
+.content_desctop__text {
+  position: relative;
 }
 
 .content_dash {
@@ -490,6 +495,8 @@ template {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 3px;
+  position: absolute;
+  top: 10px;
 }
 
 * {

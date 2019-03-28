@@ -1252,6 +1252,90 @@ template {
 
 /*DESKTOP*/
 
+.section8 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.text_developer {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 800;
+  padding-left: 80px;
+}
+
+.text_content {
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f4144;
+  font-family: "Acrom";
+  color: #3f4144;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.headline8 {
+  padding-bottom: 30px;
+  margin-left: 70px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 15px;
+  width: 181px;
+}
+
+.content_right {
+  padding-bottom: 25px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  font-family: "Acrom";
+  font-weight: 500;
+  color: black;
+  margin-left: 65px;
+  width: 280px;
+}
+
+.image_desctop {
+  margin-left: 75px;
+}
+
+.image_man {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 445px;
+  height: 200px;
+}
+
+.content_desctop__text {
+  position: relative;
+}
+
+.content_dash {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+.text_content::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 9px;
+  left: 53px;
+}
+
 .section9 {
   background-image: url(../images/background.png);
   background-position: 38px 34px;
@@ -2465,6 +2549,108 @@ template {
     width: 170px;
     margin: 0;
     margin-bottom: 39px;
+  }
+
+  .content_man {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content_desctop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .text_content {
+    font-size: 8px;
+    line-height: 12px;
+    color: #3f4144;
+    font-family: "Acrom";
+  }
+
+  .section8 {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .text_developer {
+    padding-left: 30px;
+  }
+
+  .text_content {
+    padding: 0;
+    max-width: 190px;
+  }
+
+  .image_man {
+    width: 311px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .content_man__text {
+    width: 311px;
+  }
+
+  .content_right {
+    font-size: 9px;
+    line-height: 13px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
+    margin: 0;
+    max-width: 209px;
+  }
+
+  .headline8 {
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+    width: 290px;
+  }
+
+  .image_desctop {
+    margin-left: 0;
+    width: 250px;
+    height: 200px;
+    padding-bottom: 30px;
+  }
+
+  .content_desctop__text {
+    padding-right: 40px;
+  }
+
+  .text_content {
+    position: relative;
+  }
+
+  .text_content::before {
+    position: absolute;
+    margin: 0;
+    top: -40px;
+    left: 2px;
+    width: 7px;
+    height: 7px;
+  }
+
+  .text_developer {
+    font-size: 9px;
+    line-height: 15px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
   }
 
   .section9 {
@@ -3758,6 +3944,54 @@ template {
     line-height: 15px;
     width: 231px;
     padding-bottom: 13px;
+  }
+
+  .section8 {
+    max-width: 714px;
+  }
+
+  .image_desctop {
+    width: 320px;
+    height: 240px;
+  }
+
+  .text_developer {
+    font-size: 10px;
+    line-height: 16px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 800;
+  }
+
+  .text_content {
+    font-size: 9px;
+    line-height: 13px;
+    color: #3f4144;
+    font-family: "Acrom";
+  }
+
+  .headline8 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: bold;
+    width: 300px;
+  }
+
+  .content_right {
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    font-family: "Acrom";
+    font-weight: 500;
+  }
+
+  .image_man {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: -45px;
   }
 
   .section4 {

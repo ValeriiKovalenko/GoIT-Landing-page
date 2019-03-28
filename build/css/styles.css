@@ -469,6 +469,11 @@ template {
   margin-bottom: 40px;
 }
 
+.section17__span-text {
+  background-color: #000;
+  color: #fff;
+}
+
 .section17__item-name1,
 .section17__item-name2 {
   display: flex;
@@ -522,7 +527,6 @@ template {
   font-weight: 400;
   line-height: 17.65px;
   color: #3f4144;
-  display: flex;
   align-items: flex-end;
 }
 
@@ -629,6 +633,12 @@ template {
 }
 
 @media (min-width: 768px) {
+  .section4 {
+    min-width: 768px;
+    display: flex;
+    flex-direction: row;
+  }
+
   .container {
     max-width: 768px;
   }

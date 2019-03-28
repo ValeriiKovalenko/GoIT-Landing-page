@@ -32,7 +32,10 @@
     width: 30px;
     height: 20px;
     cursor: pointer;
-    
+    transition: .2s linear;
+    &.active {
+        transform: scale(1.1);
+    }
 }
 
 .first-section__header {
@@ -47,6 +50,7 @@
     background: rgba(12, 21, 32, 0.9);
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1995;
     
 }
 @media screen and (min-width: 768px) {
@@ -287,19 +291,32 @@ display: none;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     top: 20px;
     visibility: hidden;
     opacity: 0;
     z-index: 111;
     background: rgba(12, 21, 32, 0.9);
     transition: .5s ease-in-out;
+    max-width: 480px;
+
+}
+@media screen and (min-width: 768px) {
+    .navigation {
+        max-width: 768px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .navigation {
+        max-width: 1200px;
+    }
 }
 
 .navigation.active {
     height: calc(100vh - 57px);
     opacity: 1;
-    top: 57px;
+    top: 56px;
     visibility: visible;
 }
 
@@ -311,6 +328,7 @@ display: none;
     justify-content: space-around;
     list-style: none;
     width: 100%;
+    
 }
 .submenu-item_link {
     text-decoration: none;
@@ -331,3 +349,4 @@ display: none;
         color: $aqua;
     }
 }
+

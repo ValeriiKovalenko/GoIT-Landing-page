@@ -540,6 +540,7 @@ template {
     justify-content: space-between;
     flex-flow: column wrap;
     margin: 0 auto;
+    margin-bottom: 55px;
   }
 
   .section1__article {
@@ -556,7 +557,7 @@ template {
   }
 
   .image__article {
-    width: 330px;
+    width: 311px;
     height: 310px;
     margin: 0;
   }

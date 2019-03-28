@@ -112,6 +112,7 @@
         justify-content: space-between;
         flex-flow: column wrap;
         margin: 0 auto;
+        margin-bottom: 55px;
     }
 
     .section1__article {
@@ -128,7 +129,7 @@
     }
 
     .image__article {
-        width: 330px;
+        width: 311px;
         height: 310px;
         margin: 0;
     }
@@ -185,7 +186,7 @@
 }
 
 @media screen and (min-width: 1200px) {
- 
+
     .section12 {
         max-width: 714px;
         height: 368px;
@@ -256,7 +257,7 @@
     }
 
     .description__article::before {
-        top:95px;
+        top: 95px;
     }
 
 

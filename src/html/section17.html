@@ -24,11 +24,11 @@
             <ul class="form__list">
                 <li class="form__item">
                     <span class="form__span">Имя</span>
-                    <input class="form__name" name="name" placeholder="Как вас зовут?">
+                    <input class="form__name" name="name" placeholder="Как вас зовут?" value="" aria-describedby="name-format" required aria-required=”true” pattern="[A-Za-z-0-9]+s[A-Za-z-'0-9]+"  title="firstname lastname">
              </li>
                 <li class="form__item">
                         <span class="form__span">Телефон</span>
-                    <input class="form__phone" type="phone" name="phone" placeholder="Ваш номер телефона">
+                    <input class="form__phone" type="tel" placeholder="Ваш номер телефона" pattern="^[0-9-+s()]*$">
                 </li>
                 <li class="form__item">
                         <span class="form__span">E-mail</span>

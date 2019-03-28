@@ -441,11 +441,14 @@ template {
   justify-content: space-between;
   margin-bottom: 25px;
   position: fixed;
-  width: 100%;
+  width: 480px;
   top: 0;
   left: 0;
   padding: 15px 20px;
-  background: rgba(12, 21, 32, 0.4);
+  background: rgba(12, 21, 32, 0.9);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .first-section {
@@ -522,8 +525,7 @@ template {
   color: #ffffff;
   font-family: "Acrom";
   font-weight: 800;
-  display: block;
-  margin: 0 auto;
+  margin-left: 70px;
   border: none;
   letter-spacing: 1px;
   box-shadow: 0 0 3px 1px #ff6b08;
@@ -561,11 +563,75 @@ template {
   display: none;
 }
 
+<<<<<<< HEAD
 .section2 {
   font-size: 16px;
   font-family: "Acrom", sans-serif;
   padding: 52px 15px 0;
   margin-bottom: 45px;
+=======
+.navigation {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 20px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 111;
+  background: rgba(12, 21, 32, 0.9);
+  transition: .5s ease-in-out;
+}
+
+.navigation.active {
+  height: calc(100vh - 57px);
+  opacity: 1;
+  top: 57px;
+  visibility: visible;
+}
+
+.submenu {
+  display: flex;
+  flex-flow: column wrap;
+  height: 400px;
+  max-width: 200px;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+}
+
+.submenu-item_link {
+  text-decoration: none;
+  color: white;
+  font-family: "Acrom";
+  font-weight: bold;
+  text-align: center;
+}
+
+.submenu__orange {
+  color: #ff6b08;
+}
+
+.submenu__orange:hover {
+  color: #16ebfe;
+}
+
+.submenu__orangered {
+  color: #e62c2c;
+}
+
+.submenu__orangered:hover {
+  color: #16ebfe;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+>>>>>>> Kovalenko
 }
 
 .section2_p1 {
@@ -810,9 +876,18 @@ template {
   align-content: center;
 }
 
+<<<<<<< HEAD
 .section4__image {
   margin-bottom: 35px;
 }
+=======
+  .first-section-footer__links {
+    display: inline-block;
+    position: relative;
+    left: 90%;
+    bottom: 200px;
+  }
+>>>>>>> Kovalenko
 
 .section4__subtitle {
   margin: 0 auto;

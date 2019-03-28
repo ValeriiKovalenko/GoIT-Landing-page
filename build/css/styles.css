@@ -613,6 +613,14 @@ img {
   display: block;
   -o-object-fit: cover;
   object-fit: cover;
+  transition: scale .3s linear, -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear, scale .3s linear;
+  transition: transform 0.3s linear, scale .3s linear, -webkit-transform 0.3s linear;
+}
+
+.third-wrapper_li:hover .third-wrapper_img {
+  -webkit-transform: rotate(360deg) scale(1.4);
+  transform: rotate(360deg) scale(1.4);
 }
 
 .section11_item1 {
@@ -711,6 +719,7 @@ img {
 
   .section11-third-wrapper {
     margin: 0;
+    width: 475px;
   }
 
   .second-wrapper_span,

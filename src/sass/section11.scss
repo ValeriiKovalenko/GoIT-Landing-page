@@ -188,7 +188,13 @@ img {
 .third-wrapper_img {
   display: block;
   object-fit: cover;
+  transition: transform 0.3s linear, scale .3s linear;
 }
+
+.third-wrapper_li:hover .third-wrapper_img {
+  transform: rotate(360deg) scale(1.4);
+}
+
 .section11_item1 {
   width: 45px;
 }
@@ -267,8 +273,10 @@ img {
     width: 138px;
     margin-right: 25px;
   }
+
   .section11-third-wrapper {
     margin: 0;
+    width: 475px;
   }
 
   .second-wrapper_span,

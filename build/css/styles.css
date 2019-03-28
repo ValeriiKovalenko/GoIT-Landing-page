@@ -667,15 +667,15 @@ template {
 
   .head__article {
     font-size: 30px;
-    width: 226px;
-    height: 63px;
+    width: 227px;
+    height: 70px;
     margin: 0;
     margin-bottom: 22px;
   }
 
   .description__article {
     font-size: 10px;
-    width: 212px;
+    width: 252px;
     height: 52px;
   }
 
@@ -685,6 +685,10 @@ template {
 
   .list__description {
     font-size: 8.75px;
+  }
+
+  .description__article::before {
+    top: 95px;
   }
 }
 

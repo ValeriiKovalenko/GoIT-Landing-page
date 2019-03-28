@@ -8,7 +8,14 @@
         </p>
     </article>
     <article class="section2__article">
-        <img class="image__article" src="../images/1.png" alt="some pic" width="292" height="261">
+
+        <picture class="image__article">
+            <source srcset="../images/3.png" media="(min-width:1200px)" alt="some pic">
+            <source srcset="../images/2.jpg" media="(min-width:768px)" alt="some pic">
+            <source srcset="../images/1.png" media="(min-width:480px)" alt="some pic">
+            <img class="image__article" src="../images/1.png" alt="some pic" width="292" height="261">
+        </picture>
+
     </article>
 
     <article class="section3__article">
@@ -21,7 +28,8 @@
             <li class="list__item">
                 <h2 class="main__article"> разработал бизнес-решения в web</h2>
                 <p class="list__description">для реализации бизнесс инициативы
-                    Барака Обамы <span class="decoration-text">&lt;&lt;the precisine medicine initiative&gt;&gt;</span> </p>
+                    Барака Обамы <span class="decoration-text">&lt;&lt;the precisine medicine initiative&gt;&gt;</span>
+                </p>
             </li>
 
             <li class="list__item">

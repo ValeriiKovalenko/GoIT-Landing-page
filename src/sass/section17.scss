@@ -156,6 +156,14 @@
     list-style: none;
 }
 
+.form__style input:focus:valid{
+    border-bottom:2px solid green;
+}
+
+.form__style input:focus:invalid{
+    border-bottom:2px solid red;
+}
+
 .form__name,
 .form__phone,
 .form__email {

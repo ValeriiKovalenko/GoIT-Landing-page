@@ -585,7 +585,7 @@ template {
   border-width: 0 0 2px;
   border-color: #bfbfbf;
   font-family: Acrom;
-  color: #16ebfe;
+  color: #000;
   font-size: 9px;
   font-weight: 700;
   line-height: 0.9;
@@ -634,19 +634,16 @@ template {
 
 @media (min-width: 768px) {
   .section17 {
-    padding: 60px 0;
+    padding: 60px 30px;
     min-width: 768px;
     display: flex;
     flex-direction: row;
   }
 
   .section17__title {
-    display: inline-block;
     margin: 0 auto;
     margin-left: 40px;
     text-align: left;
-    font-family: Acrom;
-    font-weight: 700;
     font-size: 27px;
     line-height: 33.65px;
     width: 270px;
@@ -664,7 +661,7 @@ template {
   }
 
   .section17__listing {
-    margin-right: 100px;
+    margin-right: 70px;
   }
 
   .section17__item {
@@ -746,6 +743,107 @@ template {
 }
 
 @media (min-width: 1200px) {
+  .section4 {
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 720px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section4__title {
+    margin: 0 auto;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 37.5px;
+    width: 270px;
+    margin-bottom: 25px;
+  }
+
+  .section4__text {
+    margin: 0 auto;
+    width: 152px;
+    padding-left: 40px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 40px;
+  }
+
+  .section17__item {
+    margin-bottom: 25px;
+  }
+
+  .section17__item-name1,
+  .section17__item-name2 {
+    padding-left: 8px;
+    margin: 0 auto;
+    font-size: 10px;
+    width: 167px;
+    font-weight: 700;
+    line-height: 16.25px;
+    margin-bottom: 10px;
+  }
+
+  .section17__item-name1::before {
+    padding-left: 0;
+    font-size: 19px;
+    top: -6px;
+    left: -30px;
+  }
+
+  .section17__item-name2::before {
+    padding-left: 0;
+    font-size: 19px;
+    top: -6px;
+    left: -30px;
+  }
+
+  .section17__item-text1,
+  .section17__item-text2 {
+    padding-left: 12px;
+    width: 177px;
+    margin: 0 auto;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11.78px;
+  }
+
+  .section17__item-text1::before {
+    width: 7px;
+    height: 7px;
+    left: -5px;
+    top: -10px;
+  }
+
+  .section17__item-text2::before {
+    width: 7px;
+    height: 7px;
+    left: -5px;
+    top: -10px;
+  }
+
+  .form__style {
+    padding: 60px 60px;
+    margin: 0 auto;
+    width: 348px;
+    height: 327px;
+  }
+
+  .form__name,
+  .form__phone,
+  .form__email {
+    width: 226px;
+    height: 30px;
+    padding-left: 20px;
+    padding: 0;
+  }
+
+  .form__button {
+    width: 163px;
+  }
+
   .container {
     max-width: 1200px;
   }

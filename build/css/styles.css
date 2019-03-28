@@ -634,7 +634,7 @@ template {
 
 @media (min-width: 768px) {
   .section4 {
-    min-width: 768px;
+    max-width: 768px;
     display: flex;
     flex-direction: row;
   }

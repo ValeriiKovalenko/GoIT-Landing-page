@@ -545,6 +545,27 @@ template {
   margin-left: 13px;
 }
 
+.just_text-first {
+  visibility: hidden;
+  width: 274px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin-bottom: 2px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.just_text-second {
+  visibility: hidden;
+  width: 137px;
+  background-color: black;
+  color: white;
+  display: block;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -557,6 +578,103 @@ template {
 }
 
 @media (min-width: 768px) {
+  .just_only {
+    max-width: 768px;
+  }
+
+  .just_only-content {
+    display: flex;
+    padding-top: 60px;
+  }
+
+  .bay_product {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .advantages_items {
+    width: 136px;
+    margin: 0px;
+    margin-right: 50px;
+    margin-top: 44px;
+  }
+
+  .bay_product-text {
+    padding-left: 30px;
+    font-size: 13.5px;
+    line-height: 25px;
+  }
+
+  .just_text-item {
+    font-size: 9px;
+    width: 113px;
+  }
+
+  .just_text-mark {
+    left: 80px;
+  }
+
+  .just_text-main {
+    visibility: hidden;
+  }
+
+  .just_text-first {
+    visibility: visible;
+  }
+
+  .just_text-second {
+    visibility: visible;
+  }
+
+  .just_web-mark {
+    width: 28px;
+    height: 3px;
+  }
+
+  .just_text-study {
+    font-size: 9px;
+    width: 137px;
+    margin: 25px auto 0;
+  }
+
+  .advantages_item {
+    font-size: 5.5px;
+    padding: 3px 0;
+  }
+
+  .advantages_items-par {
+    margin-left: 9px;
+    margin-bottom: 9px;
+    width: 135px;
+  }
+
+  .advantages_item-text {
+    margin-left: 8px;
+    width: 150px;
+  }
+
+  .just_now-man {
+    width: 212px;
+  }
+
+  .just_now {
+    width: 350px;
+  }
+
+  .just_text-contain {
+    padding-top: 0px;
+  }
+
+  .just_now-shadov {
+    left: -32px;
+  }
+
   .container {
     max-width: 768px;
   }

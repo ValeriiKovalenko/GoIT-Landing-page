@@ -440,6 +440,7 @@ template {
   font-family: "Acrom";
   color: #3f4144;
   padding-left: 40px;
+  padding-right: 30px;
 }
 
 .headline8 {
@@ -496,7 +497,8 @@ template {
   margin-right: 10px;
   margin-bottom: 3px;
   position: absolute;
-  top: 10px;
+  top: 9px;
+  left: 53px;
 }
 
 * {

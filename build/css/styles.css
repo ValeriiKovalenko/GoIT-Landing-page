@@ -422,12 +422,18 @@ template {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .section11 {
   padding: 37px 16px 0;
   font-size: 16px;
   font-family: "Acrom", sans-serif;
   transition: padding 0.3s linear;
+=======
+.sixteen-section {
+  padding-top: 50px;
+  padding-bottom: 60px;
+>>>>>>> Marian-16
 }
 
 img {
@@ -6793,6 +6799,7 @@ img {
     height: 187px;
   }
 
+<<<<<<< HEAD
   .list__item {
     margin: 0;
   }
@@ -6800,6 +6807,19 @@ img {
   .main__article {
     margin: 0;
     margin-bottom: 10px;
+=======
+@media (min-width: 1200px) {
+  .sixteen-header {
+    max-width: 722px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .sixteen-headerbox {
+    margin-top: 20px;
+    margin-right: 119px;
+    display: inline-block;
+>>>>>>> Marian-16
   }
 
   .list__description {
@@ -6824,18 +6844,47 @@ img {
     font-size: 10px;
   }
 
+<<<<<<< HEAD
   .list__description {
     font-size: 8.75px;
   }
 
   .description__article::before {
     top: 95px;
+=======
+  .sixteen-imagebox {
+    display: inline-block;
+    margin-left: 0;
+    width: 304px;
+    height: 184px;
+    background-position: 0 -13px;
+  }
+
+  .sixteen-first-article {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 722px;
+    justify-content: space-between;
+>>>>>>> Marian-16
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 1200px) {
   .section11 {
     padding: 56px 245px 0;
+=======
+  .sixteen-first-article__textbox {
+    max-width: 318px;
+    height: 135px;
+    margin-top: 50px;
+    margin-left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+>>>>>>> Marian-16
   }
 
   .section11-first-wrapper {
@@ -6855,6 +6904,7 @@ img {
     margin: 0 0 0 51px;
   }
 
+<<<<<<< HEAD
   .universe_with_tea::before {
     left: -52px;
     top: 6px;
@@ -6875,6 +6925,40 @@ img {
     font-size: 0.5469rem;
     line-height: 1.5;
     width: 131px;
+=======
+  .sixteen-first-article__text {
+    max-width: 184px;
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: 0;
+    padding-bottom: 0;
+  }
+
+  .sixteen-first-article__imagebox {
+    width: 250px;
+    height: 224px;
+    margin-right: 69px;
+    background: url(../images/first-article-picture-16.jpg), #141414;
+    background-size: 375px 258px;
+    background-position: 98% 71%;
+    background-repeat: no-repeat;
+  }
+
+  .sixteen-second-article {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 722px;
+  }
+
+  .sixteen-second-article__header {
+    margin: 0;
+    font-size: 10px;
+    line-height: 16px;
+    max-width: 116px;
+    font-weight: 900;
+>>>>>>> Marian-16
   }
 
   .section11-second-wrapper {

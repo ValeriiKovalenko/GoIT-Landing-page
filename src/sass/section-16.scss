@@ -1,5 +1,6 @@
 .sixteen-section{
-    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .sixteen-header{
     margin-bottom: 30px;
@@ -216,6 +217,10 @@
 
 
 @media (min-width: 768px){
+    .sixteen-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .sixteen-header{
         display: flex;
         flex-flow: row-reverse wrap;
@@ -425,13 +430,18 @@
 
 
 @media (min-width: 1200px){
+    .sixteen-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .sixteen-header{
-        padding-left: 84px;
-        max-width: 774px;
-        margin-bottom: 49px;
+        max-width: 722px;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
     .sixteen-headerbox{
         margin-top: 20px;
+        margin-right: 119px;
         display: inline-block;
 
         &__heading{
@@ -456,25 +466,27 @@
     }
     .sixteen-imagebox{
         display: inline-block;
-        margin-left: 88px;
+        margin-left: 0;
         width: 304px;
         height: 184px;
-    }
+        background-position: 0 -13px;
+    }   
 
     .sixteen-first-article{
-        margin: 0;
-        margin-left: 142px;
+        margin: 0 auto;
         margin-bottom: 60px;
         display: flex;
         flex-flow: row wrap;
-        max-width: 682px;
+        max-width: 722px;
         justify-content: space-between;
         &__textbox{
-            max-width: 375px;
+            max-width: 318px;
             height: 135px;
+            margin-top: 50px;
+            margin-left: 0;
             display: flex;
             flex-flow: row wrap;
-            margin-top: 50px;
+            justify-content: space-between;
         }
         &__wrapper{
             max-width: 112px;
@@ -501,16 +513,16 @@
             }
         }
         &__text{
-            max-width: 201px;
+            max-width: 184px;
             font-size: 9px;
             line-height: 13px;
             letter-spacing: 0;
-            padding-left: 23px;
             padding-bottom: 0;
         }
         &__imagebox{
             width: 250px;
             height: 224px;
+            margin-right: 69px;
             background: url(../images/first-article-picture-16.jpg),#141414;
             background-size: 375px 258px;
             background-position: 98% 71%;
@@ -519,14 +531,14 @@
         
     }
     .sixteen-second-article{
+        margin: 0 auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        max-width: 897px;
+        max-width: 722px;
 
         &__header{
             margin: 0;
-            margin-left: 171px;
             font-size: 10px;
             line-height: 16px;
             max-width: 116px;

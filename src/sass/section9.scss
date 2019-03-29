@@ -254,14 +254,23 @@
         justify-content: space-between;
         flex-flow: row wrap;
         background-position: 225px 6px;
-
-
+        max-width: 640px;
+        margin: 0 auto;
 
     }
 
     .first-section9 {
         width: 197px;
         height: 153px;
+        margin: 0;
+    }
+
+    .second-section9 {
+        margin: 0;
+    }
+
+    .second-section9__articles {
+        max-width: 300px;
     }
 
     .second-section9__list {
@@ -345,6 +354,13 @@
 }
 
 @media screen and (min-width:1200px) { 
+
+    .section9 {
+        max-width: 714px;
+        margin: 0 auto;
+
+    }
+
     .first-section9__howtostart {font-size:30px;
     width:293px;margin-bottom:31px;}
 

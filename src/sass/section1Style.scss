@@ -116,7 +116,7 @@ padding-bottom: 28px;
 @media screen and (min-width: 768px) {
     .first-section {
         width: 85.286%;
-        height: 100vh;
+        height: 340px;
     }
     .first-section__logo {
         display: none;
@@ -156,6 +156,12 @@ margin-top: 15px;
         height: 90px;
     }
 }
+@media screen and (min-width: 1200px) {
+    .first-section {
+        height: 530px;
+    }
+}
+
 .first-section__textbox {
     display: flex;
     flex-direction: column;

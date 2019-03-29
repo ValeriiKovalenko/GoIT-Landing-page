@@ -3,7 +3,11 @@
   font-size: 16px;
   font-family: "Acrom", sans-serif;
   transition: padding 0.3s linear;
+  .section2-img__wrapper::after {
+    display: none;
+  }
 }
+
 
 .section2_img,
 .third-wrapper_img {

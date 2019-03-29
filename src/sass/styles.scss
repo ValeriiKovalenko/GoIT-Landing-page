@@ -66,3 +66,13 @@ $aqua : #16ebfe;
     max-width: 1200px;
   }
 }
+
+button:hover:not(.first-section-header__button) {
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #17ecff;
+}
+
+button:focus:not(.first-section-header__button) {
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #06a4b2;
+}

@@ -1,5 +1,5 @@
 .section10 {
-    min-width: 480px;
+    max-width: 480px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -234,6 +234,10 @@
 @media (min-width: 768px) {
     .container {
         max-width: 768px;
+    }
+
+    .section10 {
+        max-width: initial;
     }
 
     .section10__texts {

@@ -418,7 +418,8 @@ template {
 }
 
 .six-section {
-  margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .six-headerbox {
@@ -504,6 +505,11 @@ template {
 }
 
 @media (min-width: 768px) {
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .six-mainbox {
     max-width: 679px;
     margin: 0 auto;
@@ -602,6 +608,11 @@ template {
 }
 
 @media (min-width: 1200px) {
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .six-mainbox {
     max-width: 679px;
     margin: 0 auto;

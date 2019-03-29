@@ -1007,6 +1007,16 @@ template {
     display: flex;
   }
 
+  .section10__button:hover {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+  }
+
+  .section10__button:focus {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
+  }
+
   .container {
     max-width: 768px;
   }
@@ -1074,7 +1084,6 @@ template {
   .section10 {
     width: 714px;
     flex-flow: row wrap;
-    justify-content: center;
   }
 
   .section10__item h4 {
@@ -1087,14 +1096,14 @@ template {
   .section10__item-text {
     font-size: 9px;
     line-height: 13px;
-    max-width: 146px;
+    max-width: 155px;
   }
 
   .section10__listing-text {
     font-size: 10px;
     line-height: 19px;
-    padding-left: 40px;
-    max-width: 142px;
+    padding-left: 14px;
+    max-width: 155px;
   }
 
   .section10__main-title {
@@ -1138,7 +1147,7 @@ template {
     margin: 0;
     position: absolute;
     top: 497px;
-    left: 312px;
+    left: 253px;
     width: 170px;
     height: 35px;
     width: 130px;
@@ -1149,9 +1158,19 @@ template {
 
   .section10__text-lower {
     top: 497px;
-    left: 496px;
+    left: 442px;
     font-size: 10px;
     line-height: 15px;
+  }
+
+  .section10__button:hover {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+  }
+
+  .section10__button:focus {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
   }
 
   .container {

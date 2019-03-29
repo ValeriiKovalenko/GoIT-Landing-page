@@ -1,7 +1,7 @@
 .section2 {
   font-size: 16px;
   font-family: "Acrom", sans-serif;
-  padding: 60px 15px 0 60px;
+  padding: 60px 15px;
 }
 
 .section2_p1 {
@@ -124,7 +124,7 @@
 
 @media screen and (min-width: 768px) {
   .section2 {
-    padding: 60px 65px 0;
+    padding: 60px 65px;
   }
 
   .section2-header__wrapper {
@@ -223,7 +223,7 @@
 
 @media screen and (min-width: 1200px) {
   .section2 {
-    padding: 60px 246px 0;
+    padding: 60px 245px;
   }
 
   .section2-img__wrapper::after {

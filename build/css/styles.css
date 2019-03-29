@@ -441,7 +441,8 @@ template {
 .section13__section_title {
   display: block;
   width: 216px;
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
+  font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
   position: relative;
@@ -463,7 +464,8 @@ template {
 .section13__medium_font {
   display: flex;
   position: relative;
-  font-family: 'Acrom Medium';
+  font-family: 'Acrom';
+  font-weight: 700;
   font-size: 13.5px;
   margin-bottom: 28px;
   padding-left: 40px;
@@ -479,7 +481,8 @@ template {
 /*p*/
 
 .section13__bold_font {
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
+  font-weight: 800;
   font-size: 13.5px;
   width: 198px;
   margin-top: 34px;
@@ -490,7 +493,7 @@ template {
 /*p*/
 
 .section13__content {
-  font-family: 'Acrom Regular';
+  font-family: 'Acrom';
   font-size: 13.5px;
   color: #9e9ea0;
   width: 216px;

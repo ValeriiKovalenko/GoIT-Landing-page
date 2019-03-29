@@ -1,4 +1,9 @@
 /*SECTION 7*/
+.section7{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .section7__point_one,
 .section7__point_two{
     display: flex;
@@ -96,13 +101,13 @@
         justify-content: space-between;
         flex-flow: row wrap;
         width: 644px;
-        height: 236px;
+        height: 224px;
         margin:0 auto;
     }
     /*Article TWO*/
     .section7__point_two{
         flex-flow: column wrap;
-        height: 254px;
+        height: 246px;
     }
 
     /*div*/
@@ -127,12 +132,14 @@
     .section7__section_title{
         font-size: 27px;
         width: 170px;
+        height: 90px;
         padding-left: 0;
-        margin-bottom: 36px;
+        margin-bottom: 30px;
     }
     /*p*/
     .section7__medium_font{
         font-size: 8.97px;
+        height: 104px;
         width: 178px;
         margin: 0;
     }

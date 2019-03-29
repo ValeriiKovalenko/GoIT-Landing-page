@@ -421,7 +421,7 @@ template {
   font-family: 'Acrom';
   max-width: 480px;
   margin: 0px auto;
-  padding: 30px 0px 30px;
+  padding: 60px 0px 60px;
 }
 
 .important-text {
@@ -540,6 +540,7 @@ template {
   width: 295px;
   height: 40px;
   background-color: #ff6b08;
+  box-shadow: 0px 4px 5px #ff6b0882;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -554,8 +555,14 @@ template {
 }
 
 .our-gift_btn:hover {
-  box-shadow: 0px 4px 5px #ff6b0882;
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #17ecff;
   transition: 300ms ease;
+}
+
+.our-gift_btn:focus {
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #06a4b2;
 }
 
 * {

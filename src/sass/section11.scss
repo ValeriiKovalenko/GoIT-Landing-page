@@ -1,10 +1,8 @@
 .section11 {
-  padding: 37px 16px 0;
+  padding: 37px 16px 60px;
   font-size: 16px;
   font-family: "Acrom", sans-serif;
   transition: padding 0.3s linear;
-  margin-bottom: 60px;
-
 }
 
 .section2_img,
@@ -208,7 +206,7 @@
 
 @media screen and (min-width: 768px) {
   .section11 {
-    padding: 49px 65px 0;
+    padding: 49px 65px 60px;
     transition: padding 0.3s linear;
     display: flex;
     flex-flow: row wrap;
@@ -347,7 +345,7 @@
 
 @media screen and (min-width: 1200px) {
   .section11 {
-    padding: 56px 245px 0;
+    padding: 56px 245px 60px;
   }
 
   .section11-first-wrapper {

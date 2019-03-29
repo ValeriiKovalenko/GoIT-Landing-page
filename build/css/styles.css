@@ -1836,7 +1836,8 @@ template {
   margin-bottom: 60px;
 }
 
-img {
+.section2_img,
+.third-wrapper_img {
   width: 100%;
   height: auto;
   display: block;

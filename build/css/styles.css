@@ -417,15 +417,9 @@ template {
   font-style: normal;
 }
 
-<<<<<<< HEAD
 .container {
   max-width: 480px;
   position: relative;
-=======
-.six-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
->>>>>>> Marian
 }
 
 .first-section__background {
@@ -544,25 +538,9 @@ template {
   box-shadow: 0 0 3px 1px #ff6b08;
 }
 
-<<<<<<< HEAD
 .first-section__button:hover {
   background-color: #16ebfe;
 }
-=======
-@media (min-width: 768px) {
-  .six-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .six-mainbox {
-    max-width: 679px;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
->>>>>>> Marian
 
 .first-section__intro::before {
   content: "\003C";
@@ -648,25 +626,9 @@ template {
   color: #e62c2c;
 }
 
-<<<<<<< HEAD
 .submenu__orangered:hover {
   color: #16ebfe;
 }
-=======
-@media (min-width: 1200px) {
-  .six-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .six-mainbox {
-    max-width: 679px;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
->>>>>>> Marian
 
 .section2 {
   font-size: 16px;
@@ -1175,7 +1137,8 @@ template {
 }
 
 .six-section {
-  margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .six-headerbox {
@@ -1864,6 +1827,16 @@ template {
   font-size: 25px;
   color: #000000;
   left: -20px;
+}
+
+.section10__button:hover {
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #17ecff;
+}
+
+.section10__button:focus {
+  box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+  background-color: #06a4b2;
 }
 
 .section11 {
@@ -4660,7 +4633,7 @@ template {
     justify-content: space-between;
     flex-flow: row wrap;
     width: 630px;
-    height: 170px;
+    height: inherit;
     margin: 0 auto;
   }
 
@@ -5038,6 +5011,11 @@ template {
     width: 200px;
   }
 
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .six-mainbox {
     max-width: 679px;
     margin: 0 auto;
@@ -5312,6 +5290,16 @@ template {
 
   .section10__listing {
     display: flex;
+  }
+
+  .section10__button:hover {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+  }
+
+  .section10__button:focus {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
   }
 
   .just_only {
@@ -6449,7 +6437,6 @@ template {
 
   .section13__point {
     width: 714px;
-    height: 185px;
     margin: 0 auto;
   }
 
@@ -6680,6 +6667,11 @@ template {
     font-size: 9px;
   }
 
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .six-mainbox {
     max-width: 679px;
     margin: 0 auto;
@@ -6750,7 +6742,6 @@ template {
     padding-left: 14px;
   }
 
-<<<<<<< HEAD
   .six-listbox__list__sign {
     font-size: 10px;
     line-height: 16px;
@@ -6763,20 +6754,6 @@ template {
     line-height: 15px;
     width: 231px;
     padding-bottom: 13px;
-=======
-  .section10__button:hover {
-    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
-    background-color: #17ecff;
-  }
-
-  .section10__button:focus {
-    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
-    background-color: #06a4b2;
-  }
-
-  .container {
-    max-width: 768px;
->>>>>>> section-10
   }
 
   .section8 {
@@ -6831,6 +6808,15 @@ template {
     max-width: 1200px;
   }
 
+  .section10__item {
+    max-width: 130px;
+  }
+
+  .section10__item h4 {
+    margin: 0;
+    max-width: inherit;
+  }
+
   .section10__image-man {
     width: 300px;
     height: 190px;
@@ -6850,7 +6836,7 @@ template {
   }
 
   .section10__item-text {
-    font-size: 9px;
+    font-size: 8px;
     line-height: 13px;
     max-width: 155px;
   }
@@ -6869,7 +6855,7 @@ template {
   }
 
   .section10__list {
-    margin-left: 20px;
+    margin: 0;
   }
 
   .section10__item1::before {
@@ -6902,24 +6888,41 @@ template {
   .section10__button {
     margin: 0;
     position: absolute;
-    top: 497px;
-    left: 253px;
+    bottom: 10px;
+    top: inherit;
+    left: 15px;
     width: 170px;
     height: 35px;
     width: 130px;
     height: 30px;
     font-size: 7px;
     letter-spacing: 1px;
+    box-shadow: 2px 13px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(255, 107, 10, 0.16);
   }
 
   .section10__text-lower {
-    top: 497px;
-    left: 442px;
+    top: inherit;
+    bottom: -33px;
+    left: 232px;
     font-size: 10px;
     line-height: 15px;
   }
 
-<<<<<<< HEAD
+  .section10__button:hover {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+  }
+
+  .section10__button:focus {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
+  }
+
+  .section10__listing {
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .just_now-man {
     height: 242px;
   }
@@ -7405,16 +7408,6 @@ template {
     max-width: 315px;
     font-size: 30px;
     line-height: 38px;
-=======
-  .section10__button:hover {
-    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
-    background-color: #17ecff;
-  }
-
-  .section10__button:focus {
-    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
-    background-color: #06a4b2;
->>>>>>> section-10
   }
 
   .container {

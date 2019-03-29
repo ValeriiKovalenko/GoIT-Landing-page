@@ -444,6 +444,15 @@
         max-width: 1200px;
     }
 
+    .section10__item {
+        max-width: 130px;
+    }
+
+    .section10__item h4 {
+        margin: 0;
+        max-width: inherit;
+    }
+
     .section10__image-man {
         width: 300px;
         height: 190px;
@@ -465,7 +474,7 @@
     }
 
     .section10__item-text {
-        font-size: 9px;
+        font-size: 8px;
         line-height: 13px;
         max-width: 155px;
     }
@@ -517,19 +526,22 @@
     .section10__button {
         margin: 0;
         position: absolute;
-        top: 497px;
-        left: 253px;
+        bottom: 10px;
+        top: inherit;
+        left: 15px;
         width: 170px;
         height: 35px;
         width: 130px;
         height: 30px;
         font-size: 7px;
         letter-spacing: 1px;
+        box-shadow: 2px 13px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(255, 107, 10, .16);
     }
 
     .section10__text-lower {
-        top: 497px;
-        left: 442px;
+        top: inherit;
+        bottom: -33px;
+        left: 232px;
         font-size: 10px;
         line-height: 15px;
     }

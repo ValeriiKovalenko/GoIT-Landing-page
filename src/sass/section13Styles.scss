@@ -75,7 +75,7 @@
         justify-content: space-between;
         flex-flow: row wrap;
         width: 630px;
-        height: 170px;
+        height: inherit;
         margin:0 auto;
     }
     /*div*/
@@ -130,7 +130,6 @@
     /*article*/
     .section13__point{
         width: 714px;
-        height: 185px;
         margin:0 auto;
     }
     /*div*/

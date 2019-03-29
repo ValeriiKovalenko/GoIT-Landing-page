@@ -210,6 +210,16 @@
     text-transform: uppercase;
 }
 
+.form__button:hover {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #17ecff;
+ }
+ 
+ .form__button:focus {
+    box-shadow: 0px 5px 6px rgba(23, 236, 255, 0.26);
+    background-color: #06a4b2;
+ }
+
 @media (min-width: 768px) {
     .section17 {
         padding: 60px 30px;

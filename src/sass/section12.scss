@@ -107,12 +107,14 @@
 @media screen and (min-width: 768px) {
     .section12 {
         max-width: 620px;
-        height: 310px;
+        height: 436px;
         display: flex;
         justify-content: space-between;
         flex-flow: column wrap;
         margin: 0 auto;
         margin-bottom: 55px;
+        padding-top:60px;
+        padding-bottom:60px;
     }
 
     .section1__article {
@@ -189,11 +191,13 @@
 
     .section12 {
         max-width: 714px;
-        height: 368px;
+        height: 488px;
         display: flex;
         justify-content: space-between;
         flex-flow: column wrap;
         margin: 0 auto;
+        padding-top:60px;
+        padding-bottom:60px;
     }
 
     .section1__article {

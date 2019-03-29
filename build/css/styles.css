@@ -758,6 +758,7 @@ img {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .third-wrapper_span {
   margin-bottom: 28px;
 }
@@ -823,6 +824,19 @@ img {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+=======
+@media screen and (min-width: 768px) {
+  .section12 {
+    max-width: 620px;
+    height: 436px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+>>>>>>> section12a
   }
 
   .section10__texts {
@@ -930,9 +944,22 @@ img {
     margin: 0;
   }
 
+<<<<<<< HEAD
   .section10__item-text5 {
     max-width: 161px;
     font-size: 8px;
+=======
+@media screen and (min-width: 1200px) {
+  .section12 {
+    max-width: 714px;
+    height: 488px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+>>>>>>> section12a
   }
 
   .section10__item1::before {

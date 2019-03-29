@@ -417,9 +417,15 @@ template {
   font-style: normal;
 }
 
+<<<<<<< HEAD
 .container {
   max-width: 480px;
   position: relative;
+=======
+.six-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+>>>>>>> Marian
 }
 
 .first-section__background {
@@ -538,9 +544,25 @@ template {
   box-shadow: 0 0 3px 1px #ff6b08;
 }
 
+<<<<<<< HEAD
 .first-section__button:hover {
   background-color: #16ebfe;
 }
+=======
+@media (min-width: 768px) {
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .six-mainbox {
+    max-width: 679px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+>>>>>>> Marian
 
 .first-section__intro::before {
   content: "\003C";
@@ -626,9 +648,25 @@ template {
   color: #e62c2c;
 }
 
+<<<<<<< HEAD
 .submenu__orangered:hover {
   color: #16ebfe;
 }
+=======
+@media (min-width: 1200px) {
+  .six-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .six-mainbox {
+    max-width: 679px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+>>>>>>> Marian
 
 .section2 {
   font-size: 16px;

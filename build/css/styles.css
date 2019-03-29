@@ -436,10 +436,21 @@ template {
 >>>>>>> Marian-16
 }
 
+<<<<<<< HEAD
 img {
   width: 100%;
   height: auto;
   display: block;
+=======
+.section13__point {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin: 0 auto;
+  line-height: normal;
+  padding-top: 60px;
+  padding-bottom: 60px;
+>>>>>>> section_13
 }
 
 .section11-first-wrapper {
@@ -6883,8 +6894,13 @@ img {
     margin-left: 0;
     display: flex;
     flex-flow: row wrap;
+<<<<<<< HEAD
     justify-content: space-between;
 >>>>>>> Marian-16
+=======
+    width: 202px;
+    height: 176px;
+>>>>>>> section_13
   }
 
   .section11-first-wrapper {

@@ -243,6 +243,7 @@
     .section10__main-title {
         padding-top: 50px;
         padding-bottom: 30px;
+        font-size: 29px;
         
     }
     .section10__text {
@@ -297,5 +298,81 @@
         font-family: "Acrom";
         max-width: 120px;
     }
-    
+    .section10__item-text {
+        max-width: 110px;
+        font-size: 8px;
+    }
+    .section10__item-name {
+        max-width: 110px;
+        font-size: 9px;
+        
+    }
+    .section10__item h4 {
+        font-size: 9px;
+    }
+    .section10__item-name h4 {
+        font-size: 9px;
+        margin: 0;
+    }
+    .section10__item-text5 {
+        max-width: 161px;
+        font-size: 8px;
+    }
+    .section10__item1::before {
+        line-height: 6px;
+        left: -37px;
+        top: 20px;
+        width: 33px;
+}
+.section10__item2::before {
+    line-height: 6px;
+    left: -47px;
+    top: 20px;
+    width: 33px;
+}
+.section10__item3::before {
+    line-height: 6px;
+    left: -46px;
+    top: 20px;
+    width: 33px;
+}
+.section10__item4::before {
+    line-height: 6px;
+    left: -38px;
+    top: 15px;
+    width: 33px;
+}
+.section10__item5::before {
+    line-height: 6px;
+    left: -38px;
+    top: 15px;
+    width: 33px;
+}
+.section10__item6::before {
+    line-height: 6px;
+    left: -38px;
+    top: 15px;
+    width: 33px;
+}
+.section10__button {
+    margin: 0;
+    position: absolute;
+    top: 653px;
+    left: 33px;
+    width: 170px;
+    height: 35px;
+}
+.section10__text-lower {
+    position: absolute;
+    top: 658px;
+    left: 277px;
+    max-width: 180px;
+    font-size: 9px;
+}
+.section10__slach {
+    font-size: 38px;
+    color: #000;
+    left: -33px;
+    top: 6px;
+}
 }

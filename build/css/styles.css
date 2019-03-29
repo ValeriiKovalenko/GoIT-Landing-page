@@ -420,8 +420,7 @@ template {
 .section2 {
   font-size: 16px;
   font-family: "Acrom", sans-serif;
-  padding: 52px 15px 0;
-  margin-bottom: 45px;
+  padding: 60px 15px 0 60px;
 }
 
 .section2_p1 {
@@ -556,7 +555,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .section2 {
-    padding: 52px 65px 0;
+    padding: 60px 65px 0;
   }
 
   .section2-header__wrapper {
@@ -660,7 +659,7 @@ template {
 
 @media screen and (min-width: 1200px) {
   .section2 {
-    padding: 52px 246px 0;
+    padding: 60px 246px 0;
   }
 
   .section2-img__wrapper::after {

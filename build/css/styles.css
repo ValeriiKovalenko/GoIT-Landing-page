@@ -530,10 +530,6 @@ template {
   margin-bottom: 35px;
 }
 
-.section10__listing {
-  display: flex;
-}
-
 .section10__list h4 {
   font-size: 13px;
   line-height: 20px;
@@ -1007,6 +1003,10 @@ template {
     top: 6px;
   }
 
+  .section10__listing {
+    display: flex;
+  }
+
   .container {
     max-width: 768px;
   }
@@ -1059,6 +1059,99 @@ template {
     height: 200px;
     position: relative;
     top: -45px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .section10__image-man {
+    width: 300px;
+    height: 190px;
+    padding-left: 0px;
+  }
+
+  .section10 {
+    width: 714px;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .section10__item h4 {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .section10__item-text {
+    font-size: 9px;
+    line-height: 13px;
+    max-width: 146px;
+  }
+
+  .section10__listing-text {
+    font-size: 10px;
+    line-height: 19px;
+    padding-left: 40px;
+    max-width: 142px;
+  }
+
+  .section10__main-title {
+    font-size: 28px;
+    line-height: 38px;
+    padding-bottom: 20px;
+  }
+
+  .section10__list {
+    margin-left: 20px;
+  }
+
+  .section10__item1::before {
+    line-height: 6px;
+    left: -27px;
+    top: 14px;
+    width: 23px;
+    font-size: 7px;
+  }
+
+  .section10__item2::before,
+  .section10__item3::before {
+    line-height: 6px;
+    left: -27px;
+    top: 14px;
+    width: 23px;
+    font-size: 7px;
+  }
+
+  .section10__item4::before,
+  .section10__item5::before,
+  .section10__item6::before {
+    line-height: 6px;
+    left: -27px;
+    top: 9px;
+    width: 23px;
+    font-size: 7px;
+  }
+
+  .section10__button {
+    margin: 0;
+    position: absolute;
+    top: 497px;
+    left: 312px;
+    width: 170px;
+    height: 35px;
+    width: 130px;
+    height: 30px;
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .section10__text-lower {
+    top: 497px;
+    left: 496px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .container {

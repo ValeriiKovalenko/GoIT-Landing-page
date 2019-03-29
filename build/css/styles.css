@@ -422,6 +422,7 @@ template {
 .section7 {
   padding-top: 60px;
   padding-bottom: 60px;
+  line-height: normal;
 }
 
 .section7__point_one,
@@ -756,6 +757,7 @@ template {
   .section7__section_title {
     font-size: 30px;
     width: 187px;
+    height: 110px;
   }
 
   /*picture young-----------------------------*/

@@ -377,42 +377,42 @@ template {
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Regular.woff") format("woff");
+  src: url("../fonts/Acrom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Bold.woff") format("woff");
+  src: url("../fonts/Acrom-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Thin.woff") format("woff");
+  src: url("../fonts/Acrom-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Light.woff") format("woff");
+  src: url("../fonts/Acrom-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-ExtraBold.woff") format("woff");
+  src: url("../fonts/Acrom-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Acrom';
-  src: url("Acrom-Medium.woff") format("woff");
+  src: url("../fonts/Acrom-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -446,8 +446,9 @@ template {
 .section7__section_title {
   display: block;
   width: 210px;
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
   font-size: 18px;
+  font-weight: 800;
   text-transform: uppercase;
   position: relative;
   padding-left: 40px;
@@ -469,7 +470,8 @@ template {
 .section7__medium_font {
   display: flex;
   position: relative;
-  font-family: 'Acrom Medium';
+  font-family: 'Acrom';
+  font-weight: 500;
   font-size: 13.5px;
   margin-bottom: 36px;
   padding-left: 40px;
@@ -486,7 +488,8 @@ template {
 
 .section7__black_background {
   display: block;
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
+  font-weight: 800;
   color: white;
   font-size: 0;
   margin: 18px 0;
@@ -512,7 +515,8 @@ template {
 /*p*/
 
 .section7__bold_font {
-  font-family: 'Acrom Bold';
+  font-family: 'Acrom';
+  font-weight: bold;
   font-size: 13.5px;
   width: 358px;
   margin-bottom: 16px;
@@ -521,7 +525,8 @@ template {
 /*p*/
 
 .section7__content {
-  font-family: 'Acrom Regular';
+  font-family: 'Acrom';
+  font-weight: normal;
   font-size: 13.5px;
   color: #9e9ea0;
   width: 328px;

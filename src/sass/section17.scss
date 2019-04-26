@@ -144,9 +144,10 @@
 }
 
 .form__style {
+
     padding: 70px 55px;
     margin: 0 auto;
-    width: 371px;
+   
     height: 348px;
     box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
@@ -167,7 +168,7 @@
 .form__name,
 .form__phone,
 .form__email {
-    width: 246px;
+    width: 100%;
     height: 30px;
     padding-left: 20px;
     outline: 0;

@@ -418,7 +418,7 @@ template {
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   position: relative;
 }
 
@@ -443,11 +443,11 @@ template {
 }
 
 .first-section__header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   position: fixed;
-  width: 480px;
   top: 0;
   left: 0;
   padding: 15px 20px;
@@ -524,6 +524,7 @@ template {
 }
 
 .first-section__button {
+  margin: 0 auto;
   width: 220px;
   height: 55px;
   background-color: #ff6b08;
@@ -532,7 +533,7 @@ template {
   color: #ffffff;
   font-family: "Acrom";
   font-weight: 800;
-  margin-left: 70px;
+  display: block;
   border: none;
   letter-spacing: 1px;
   box-shadow: 0 0 3px 1px #ff6b08;
@@ -985,6 +986,10 @@ template {
   line-height: 19.5px;
 }
 
+.section4__img {
+  width: 100%;
+}
+
 .people {
   padding: 20px 0px;
 }
@@ -1266,8 +1271,17 @@ template {
 /*picture*/
 
 .section7__man_image {
+  display: block;
   margin-bottom: 20px;
   margin: 0 auto;
+}
+
+.old {
+  width: 100%;
+}
+
+.young {
+  width: 100%;
 }
 
 /*h4*/
@@ -1379,8 +1393,7 @@ template {
 
 .image_man {
   margin: 0 auto;
-  width: 445px;
-  height: 200px;
+  width: 100%;
 }
 
 .content_desctop__text {
@@ -1625,6 +1638,10 @@ template {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.section10__image-man {
+  width: 100%;
 }
 
 .section10__texts {
@@ -2174,6 +2191,10 @@ template {
   padding-bottom: 60px;
 }
 
+.mans {
+  width: 100%;
+}
+
 /*div*/
 
 .section13__main_content {
@@ -2186,7 +2207,7 @@ template {
 .section13__section_title {
   display: block;
   width: 216px;
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
   font-size: 18px;
   text-transform: uppercase;
   position: relative;
@@ -2208,7 +2229,7 @@ template {
 .section13__medium_font {
   display: flex;
   position: relative;
-  font-family: 'Acrom Medium';
+  font-family: 'Acrom';
   font-size: 13.5px;
   margin-bottom: 28px;
   padding-left: 40px;
@@ -2219,12 +2240,13 @@ template {
 .section13__mans_image {
   margin-bottom: 18px;
   margin: 0 auto;
+  width: 100%;
 }
 
 /*p*/
 
 .section13__bold_font {
-  font-family: 'Acrom ExtraBold';
+  font-family: 'Acrom';
   font-size: 13.5px;
   width: 198px;
   margin-top: 34px;
@@ -2235,7 +2257,7 @@ template {
 /*p*/
 
 .section13__content {
-  font-family: 'Acrom Regular';
+  font-family: 'Acrom';
   font-size: 13.5px;
   color: #9e9ea0;
   width: 216px;
@@ -2247,6 +2269,7 @@ template {
 /*DESKTOP*/
 
 .just_only {
+  font-family: 'Acrom';
   max-width: 480px;
   margin: 0 auto;
   padding: 20px 0px;
@@ -2277,7 +2300,7 @@ template {
 }
 
 .just {
-  font-family: 'Acrom';
+  font-family: 'Acrom-Regular';
   font-weight: 400;
 }
 
@@ -2678,7 +2701,7 @@ template {
 
 .sixteen-second-article__list__item {
   width: 346px;
-  margin-left: 62px;
+  margin-left: 10px;
   margin-bottom: 22px;
   line-height: 18px;
   position: relative;
@@ -2931,7 +2954,6 @@ template {
 .form__style {
   padding: 70px 55px;
   margin: 0 auto;
-  width: 371px;
   height: 348px;
   box-shadow: 0 8px 14px rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
@@ -2952,7 +2974,7 @@ template {
 .form__name,
 .form__phone,
 .form__email {
-  width: 246px;
+  width: 100%;
   height: 30px;
   padding-left: 20px;
   outline: 0;
@@ -3841,7 +3863,7 @@ template {
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -3857,11 +3879,11 @@ button:focus:not(.first-section-header__button) {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 645px;
+    width: 100%;
   }
 
   .container {
-    max-width: 768px;
+    width: 100%;
   }
 
   .first-section__background {
@@ -3873,7 +3895,7 @@ button:focus:not(.first-section-header__button) {
 
   .first-section__header {
     margin-bottom: 45px;
-    width: 768px;
+    width: 100%;
   }
 
   .first-section {
@@ -4150,8 +4172,8 @@ button:focus:not(.first-section-header__button) {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    width: 272px;
-    height: 226px;
+    width: 100%;
+    height: auto;
   }
 
   /*div*/
@@ -4688,6 +4710,7 @@ button:focus:not(.first-section-header__button) {
   /*picture*/
 
   .section13__mans_image {
+    width: auto;
     margin: 0;
   }
 
@@ -5132,7 +5155,7 @@ button:focus:not(.first-section-header__button) {
   }
 
   .container {
-    max-width: 768px;
+    width: 100%;
   }
 
   .section10 {
@@ -6094,13 +6117,13 @@ button:focus:not(.first-section-header__button) {
   }
 
   .container {
-    max-width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 100%;
   }
 
   .first-section__background {
@@ -6108,7 +6131,7 @@ button:focus:not(.first-section-header__button) {
   }
 
   .first-section__header {
-    width: 1200px;
+    width: 100%;
   }
 
   .first-section {
@@ -6504,6 +6527,7 @@ button:focus:not(.first-section-header__button) {
   /*picture*/
 
   .section13__mans_image {
+    width: auto;
     margin: 0;
   }
 
@@ -6841,7 +6865,7 @@ button:focus:not(.first-section-header__button) {
   }
 
   .container {
-    max-width: 1200px;
+    width: 100%;
   }
 
   .section10__item {
@@ -7447,6 +7471,6 @@ button:focus:not(.first-section-header__button) {
   }
 
   .container {
-    max-width: 1200px;
+    width: 100%;
   }
 }

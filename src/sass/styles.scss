@@ -52,18 +52,18 @@ $aqua : #16ebfe;
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 100%;
   }
 }
 

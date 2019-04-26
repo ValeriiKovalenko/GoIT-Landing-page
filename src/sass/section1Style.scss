@@ -1,10 +1,10 @@
 .container {
-    max-width: 480px;
+    width: 100%;
     position: relative;
 }
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 645px;
+        width: 100%;
     }
 }
 .first-section__background {
@@ -15,7 +15,7 @@
 }
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 100%;
     }
     .first-section__background {
         background: url(../images/section1background.png);
@@ -39,11 +39,12 @@
 }
 
 .first-section__header {
+    width: 100%;
     display: flex;
     justify-content: space-between ;
     margin-bottom: 25px;
     position: fixed;
-    width: 480px;
+    
     top: 0;
     left: 0;
     padding: 15px 20px;
@@ -56,19 +57,19 @@
 @media screen and (min-width: 768px) {
     .first-section__header {
         margin-bottom: 45px;
-        width: 768px;
+        width: 100%;
     }
 }
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        width: 100%;
 
     }
     .first-section__background {
         padding: 65px 20px 35px;
     }
     .first-section__header {
-        width: 1200px;
+        width: 100%;
         
     }
 }
@@ -196,6 +197,7 @@ text-align: left;
 
 }
 .first-section__button {
+    margin: 0 auto;
     width: 220px;
     height: 55px;
     background-color: $orange;
@@ -205,7 +207,7 @@ text-align: left;
     font-family: "Acrom";
     font-weight: 800;
     
-    margin-left: 70px;
+    display: block;
     border: none;
     letter-spacing: 1px;
     box-shadow: 0 0 3px 1px $orange;
